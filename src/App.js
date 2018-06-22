@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 
 import perseids_logo_transparent from './img/perseids-logo-transparent.png';
-import perseids_logo_white_background from './img/perseids-logo-white-background.png';
-import background from './img/background.jpg';
 import community from './img/community.png';
 import frqsc_logo from './img/frqsc-logo.png';
 import imls_logo from './img/imls-logo.png';
@@ -60,7 +58,7 @@ class App extends Component {
               <div className="col-md-12 text-center">
                 <h2>We're having a Perseids User Summit on August 21, 2018.</h2>
                 <h3>Help us prepare by
-                  {" "}<a href="https://goo.gl/forms/oWpTBCEBe2C7Z0yv2" target="_blank">taking the survey!</a>
+                  {" "}<a href="https://goo.gl/forms/oWpTBCEBe2C7Z0yv2" target="_blank" rel="noopener noreferrer">taking the survey!</a>
                 </h3>
               </div>
             </div>
@@ -76,7 +74,7 @@ class App extends Component {
                 <p>Since ancient documents, particularly text-based ones, can be difficult to access for non-specialists, our mission is to make it possible for editors to augment ancient texts with layers of explanatory materials in the form of annotations, image markup, commentary, and interactive graphs.</p>
               </div>
               <div className="col-md-6">
-                <img className="img-fluid" src={treebank} />
+                <img className="img-fluid" src={treebank} alt="treebanking" />
               </div>
             </div>
 
@@ -88,7 +86,7 @@ class App extends Component {
                 <p>Editors can set up communities and review boards so as to work in teams and review each other’s contributions, whether in classNameroom or research settings.</p>
               </div>
               <div className="col-md-6 order-md-1">
-                <img className="img-fluid" src={community} />
+                <img className="img-fluid" src={community} alt="community" />
               </div>
             </div>
 
@@ -100,7 +98,7 @@ class App extends Component {
                 <p>The platform is language-independent and currently accommodates Latin, Greek, and many other languages of the ancient and pre-modern world. This diversity means that we are fundamentally committed to a cross-disciplinary approach, and we encourage users to integrate data from other fields to enrich Humanities projects.</p>
               </div>
               <div className="col-md-6">
-                <img className="img-fluid" src={manuscript} />
+                <img className="img-fluid" src={manuscript} alt="manuscript" />
               </div>
             </div>
 
@@ -112,7 +110,7 @@ class App extends Component {
                 <p>In order to support widespread data sharing, our core value is to put the data first, making sure that data produced through Perseids is compliant with community standards for open data, interoperability, and technology independence.</p>
               </div>
               <div className="col-md-6 order-md-1">
-                <img className="img-fluid" src={sharing} />
+                <img className="img-fluid" src={sharing} alt="sharing" />
               </div>
             </div>
 
@@ -127,21 +125,21 @@ class App extends Component {
           <div className="row">
             <div className="col-md-4">
               <p>
-              <a target="_blank" href="https://mellon.org/">
+              <a target="_blank" rel="noopener noreferrer" href="https://mellon.org/">
                 <img className="footer-logo-img" src={mellon_logo} title="Andrew W. Mellon Foundation" alt="Andrew W. Mellon Foundation" />
               </a>
               </p>
             </div>
             <div className="col-md-4">
               <p>
-              <a target="_blank" href="https://www.neh.gov/">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.neh.gov/">
                 <img className="footer-logo-img" src={neh_logo} title="National Endowment for the Humanities" alt="National Endowment for the Humanities" />
               </a>
               </p>
             </div>
             <div className="col-md-4">
               <p>
-              <a target="_blank" href="https://www.tufts.edu/">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.tufts.edu/">
                 <img className="footer-logo-img" src={tufts_logo} title="Tufts University" alt="Tufts University" />
               </a>
               </p>
@@ -150,21 +148,21 @@ class App extends Component {
           <div className="row pt-1">
             <div className="col-md-4">
               <p>
-              <a target="_blank" href="https://www.imls.gov/">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.imls.gov/">
                 <img className="footer-logo-img" src={imls_logo} title="Institute of Museum and Library Services" alt="Institute of Museum and Library Services" />
               </a>
               </p>
             </div>
             <div className="col-md-4">
               <p>
-              <a target="_blank" href="http://www.kressfoundation.org/">
+              <a target="_blank" rel="noopener noreferrer" href="http://www.kressfoundation.org/">
                 <img className="footer-logo-img" src={kress_logo} title="The Samuel H. Kress Foundation" alt="The Samuel H. Kress Foundation" />
               </a>
               </p>
             </div>
             <div className="col-md-4">
               <p>
-              <a target="_blank" href="http://www.frqsc.gouv.qc.ca/">
+              <a target="_blank" rel="noopener noreferrer" href="http://www.frqsc.gouv.qc.ca/">
                 <img className="footer-logo-img" src={frqsc_logo} title="Le Fonds de recherche du Québec – Société et culture" alt="Le Fonds de recherche du Québec – Société et culture" />
               </a>
               </p>
