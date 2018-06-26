@@ -8,7 +8,7 @@ import sharing from '../img/sharing.png';
 class Home extends Component {
   render() {
     return (
-      <main role="main">
+      <React.Fragment>
 
         <div className="jumbotron">
           <div className="container text-light">
@@ -84,7 +84,7 @@ class Home extends Component {
           <hr />
 
         </div>
-      </main>
+      </React.Fragment>
     );
   }
 }
