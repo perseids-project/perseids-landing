@@ -3,9 +3,6 @@ import { Link } from "react-router-dom";
 
 import Hero from '../Hero';
 import ListItemInline from '../ListItemInline';
-import Announcement from '../Announcement';
-
-import treebank from '../img/treebank.png';
 
 class Home extends Component {
   render() {

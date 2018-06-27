@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 class ListItem  extends Component {
   static propTypes = {
     title: PropTypes.string,
-    text: PropTypes.string,
+    text: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
     image: PropTypes.string,
     alt: PropTypes.string,
     reverse: PropTypes.bool,

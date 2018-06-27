@@ -57,9 +57,10 @@ class PerseidsPlatform  extends Component {
             alt="sharing"
             reverse={true} />
 
-          <hr />
-
         </div>
+
+        <hr />
+
       </React.Fragment>
     );
   }
