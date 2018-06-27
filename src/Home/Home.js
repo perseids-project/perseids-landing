@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Hero from '../Hero';
+
 import treebank from '../img/treebank.png';
 import community from '../img/community.png';
 import manuscript from '../img/manuscript.png';
@@ -10,15 +12,10 @@ class Home extends Component {
     return (
       <React.Fragment>
 
-        <div className="jumbotron sunset-background">
-          <div className="container text-light">
-            <h1 className="display-3">The Perseids Project</h1>
-            <p>
-            Perseids offers a free and open online environment to produce collaborative data-driven editions of ancient documents.
-            </p>
-            <p><a className="btn btn-primary btn-lg" href="http://sites.tufts.edu/perseids/" role="button">Read more »</a></p>
-          </div>
-        </div>
+        <Hero
+          title="The New Name Project"
+          text="The New Name Project aims to support access to scholarship in Classics for students and members of the public at all levels of competence. We provide a suite of tools that foster language acquisition, facilitate working with documents, and encourage research."
+          background="sunset" />
 
         <div className="container mb-4">
           <div className="row">

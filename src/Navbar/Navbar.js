@@ -18,10 +18,10 @@ class Navbar extends Component {
         <div className="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/editing-platform">Editing Platform</NavLink>
+              <NavLink className="nav-link" to="/perseids-platform">Perseids Platform</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/digital-editions">Digital Editions</NavLink>
+              <NavLink className="nav-link" to="/publications">Publications</NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/libraries-tools">Libraries and Tools</NavLink>
