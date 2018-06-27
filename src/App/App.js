@@ -8,7 +8,6 @@ import DigitalEditions from '../DigitalEditions';
 import EditingPlatform from '../EditingPlatform';
 import Home from '../Home';
 import SoftwareLibraries from '../SoftwareLibraries';
-import WebTools from '../WebTools';
 
 class App extends Component {
   render() {
@@ -21,8 +20,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route exact path="/digital-editions" component={DigitalEditions} />
             <Route exact path="/editing-platform" component={EditingPlatform} />
-            <Route exact path="/software-libraries" component={SoftwareLibraries} />
-            <Route exact path="/web-tools" component={WebTools} />
+            <Route exact path="/libraries-tools" component={SoftwareLibraries} />
           </main>
 
           <Footer />

@@ -24,10 +24,7 @@ class Navbar extends Component {
               <NavLink className="nav-link" to="/digital-editions">Digital Editions</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/web-tools">Web Tools</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/software-libraries">Software Libraries</NavLink>
+              <NavLink className="nav-link" to="/libraries-tools">Libraries and Tools</NavLink>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="https://sites.tufts.edu/perseids/">Blog</a>

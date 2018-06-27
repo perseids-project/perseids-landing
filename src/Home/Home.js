@@ -10,7 +10,7 @@ class Home extends Component {
     return (
       <React.Fragment>
 
-        <div className="jumbotron">
+        <div className="jumbotron sunset-background">
           <div className="container text-light">
             <h1 className="display-3">The Perseids Project</h1>
             <p>
