@@ -23,6 +23,7 @@ class ListItem  extends Component {
         <div className={textOrder}>
           <h2>{this.props.title}</h2>
           <p>{this.props.text}</p>
+          {this.props.children}
         </div>
         <div className={imageOrder}>
           <img className="img-fluid" src={this.props.image} alt={this.props.alt} />
