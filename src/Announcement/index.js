@@ -1,3 +1,3 @@
-import Announcement  from './Announcement';
+import Announcement from './Announcement';
 
 export default Announcement;

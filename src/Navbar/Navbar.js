@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { NavbarToggler, Collapse } from 'reactstrap';
 
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
-import perseids_logo_transparent from '../img/perseids-logo-transparent.png';
+import perseidsLogoTransparent from '../img/perseids-logo-transparent.png';
 
 class Navbar extends Component {
   state = {
@@ -11,38 +11,48 @@ class Navbar extends Component {
   }
 
   toggleNavbar = () => {
-    this.setState({
-      collapsed: !this.state.collapsed
-    });
+    this.setState(prevState => ({ collapsed: !prevState.collapsed }));
   }
 
   render() {
+    const { collapsed } = this.state;
+
     return (
       <nav className="navbar navbar-expand-md navbar-light bg-light">
         <NavLink className="navbar-brand" to="/">
-          <img className="navbar-logo-img" src={perseids_logo_transparent} title="perseids logo" alt="perseids logo" />
+          <img className="navbar-logo-img" src={perseidsLogoTransparent} title="perseids logo" alt="perseids logo" />
         </NavLink>
         <NavbarToggler onClick={this.toggleNavbar} />
 
-        <Collapse isOpen={!this.state.collapsed} navbar>
+        <Collapse isOpen={!collapsed} navbar>
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/perseids-platform">Perseids Platform</NavLink>
+              <NavLink className="nav-link" to="/perseids-platform">
+                Perseids Platform
+              </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/digital-editions">Digital Editions</NavLink>
+              <NavLink className="nav-link" to="/digital-editions">
+                Digital Editions
+              </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/libraries-tools">Libraries and Tools</NavLink>
+              <NavLink className="nav-link" to="/libraries-tools">
+                Libraries and Tools
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://sites.tufts.edu/perseids/">Blog</a>
+              <a className="nav-link" href="https://sites.tufts.edu/perseids/">
+                Blog
+              </a>
             </li>
           </ul>
 
           <ul className="navbar-nav my-2 my-lg-02">
             <li className="nav-item">
-              <a className="nav-link" href="https://sosol.perseids.org/sosol/signin">Log in</a>
+              <a className="nav-link" href="https://sosol.perseids.org/sosol/signin">
+                Log in
+              </a>
             </li>
           </ul>
         </Collapse>

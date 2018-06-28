@@ -1,36 +1,56 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-class ListItem  extends Component {
-  static propTypes = {
-    title: PropTypes.string,
-    text: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
-    image: PropTypes.string,
-    alt: PropTypes.string,
-    reverse: PropTypes.bool,
-  };
+const ListItem = ({
+  title,
+  text,
+  image,
+  alt,
+  reverse,
+  link,
+  linkText,
+}) => {
+  const textOrder = reverse ? 'col-md-6 order-md-6' : 'col-md-6';
+  const imageOrder = reverse ? 'col-md-6 order-md-1' : 'col-md-6';
 
-  static defaultProps = {
-    reverse: false,
-  };
-
-  render() {
-    let textOrder = this.props.reverse ? "col-md-6 order-md-6" : "col-md-6";
-    let imageOrder = this.props.reverse ? "col-md-6 order-md-1" : "col-md-6";
-
-    return (
-      <div className="row mb-4 align-items-center">
-        <div className={textOrder}>
-          <h2>{this.props.title}</h2>
-          <p>{this.props.text}</p>
-          {this.props.children}
-        </div>
-        <div className={imageOrder}>
-          <img className="img-fluid" src={this.props.image} alt={this.props.alt} />
-        </div>
+  return (
+    <div className="row mb-4 align-items-center">
+      <div className={textOrder}>
+        <h2>
+          {title}
+        </h2>
+        <p>
+          {text}
+        </p>
+        {link && (
+          <p>
+            <a className="btn btn-secondary" href={link} role="button">
+              {`${linkText || link} »`}
+            </a>
+          </p>
+        )}
       </div>
-    );
-  }
-}
+      <div className={imageOrder}>
+        <img className="img-fluid" src={image} alt={alt} />
+      </div>
+    </div>
+  );
+};
+
+ListItem.propTypes = {
+  title: PropTypes.string.isRequired,
+  text: PropTypes.oneOfType([PropTypes.string, PropTypes.element]).isRequired,
+  image: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+  reverse: PropTypes.bool,
+  link: PropTypes.string,
+  linkText: PropTypes.string,
+};
+
+ListItem.defaultProps = {
+  reverse: false,
+  link: undefined,
+  linkText: undefined,
+};
 
 export default ListItem;

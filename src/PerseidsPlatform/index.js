@@ -1,3 +1,3 @@
-import PerseidsPlatform  from './PerseidsPlatform';
+import PerseidsPlatform from './PerseidsPlatform';
 
 export default PerseidsPlatform;

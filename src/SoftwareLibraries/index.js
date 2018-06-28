@@ -1,3 +1,3 @@
-import SoftwareLibraries  from './SoftwareLibraries';
+import SoftwareLibraries from './SoftwareLibraries';
 
 export default SoftwareLibraries;

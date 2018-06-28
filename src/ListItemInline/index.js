@@ -1,3 +1,3 @@
-import ListItemInline  from './ListItemInline';
+import ListItemInline from './ListItemInline';
 
 export default ListItemInline;

@@ -1,26 +1,33 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
-class ListItemInline  extends Component {
-  static propTypes = {
-    title: PropTypes.string,
-    text: PropTypes.string,
-  };
+const ListItemInline = ({
+  title,
+  text,
+  link,
+  linkText,
+}) => (
+  <div className="col-md-4">
+    <h2>
+      {title}
+    </h2>
+    <p>
+      {text}
+    </p>
+    <p>
+      <Link className="btn btn-secondary mr-2" to={link} role="button">
+        {`${linkText} »`}
+      </Link>
+    </p>
+  </div>
+);
 
-  static defaultProps = {
-    column: "4",
-  };
-
-  render() {
-    return (
-      <div className={"col-md-" + this.props.column}>
-        <h2>{this.props.title}</h2>
-        <p>{this.props.text}</p>
-        {this.props.children}
-      </div>
-    );
-  }
-}
+ListItemInline.propTypes = {
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  linkText: PropTypes.string.isRequired,
+};
 
 export default ListItemInline;
-

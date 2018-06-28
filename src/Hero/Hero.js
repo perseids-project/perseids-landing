@@ -1,32 +1,32 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-class Hero  extends Component {
-  static backgrounds = [
-    'sunset',
-    'columns',
-    'text',
-    'construction',
-  ];
+const Hero = ({ title, text, background }) => (
+  <div className={`jumbotron ${background}-background`}>
+    <div className="container text-light">
+      <h1 className="display-3 font-weight-normal">
+        {title}
+      </h1>
+      <p>
+        <span className="bg-dark-translucent">
+          {text}
+        </span>
+      </p>
+    </div>
+  </div>
+);
 
-  static propTypes = {
-    title: PropTypes.string,
-    text: PropTypes.string,
-    background: PropTypes.oneOf(Hero.backgrounds),
-  };
+const backgrounds = [
+  'sunset',
+  'columns',
+  'text',
+  'construction',
+];
 
-  render() {
-    return (
-      <div className={"jumbotron " + this.props.background + "-background"}>
-        <div className="container text-light">
-          <h1 className="display-3 font-weight-normal">{this.props.title}</h1>
-          <p>
-            <span className="bg-dark-translucent">{this.props.text}</span>
-          </p>
-        </div>
-      </div>
-    );
-  }
-}
+Hero.propTypes = {
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+  background: PropTypes.oneOf(backgrounds).isRequired,
+};
 
 export default Hero;
