@@ -27,11 +27,11 @@ class Home extends Component {
             </ListItemInline>
 
             <ListItemInline
-              title="Publications"
+              title="Digital Editions"
               text="Our aim with the New Name Project is to support a wide range of publication types for the texts and data, from micro-publications to full-fledged digital editions. To develop our publications, we have collaborates with students, scholars of the classics at other institutions, and with scholars across disciplines.">
 
               <p>
-                <Link className="btn btn-secondary mr-2" to="publications" role="button">See publications »</Link>
+                <Link className="btn btn-secondary mr-2" to="digital-editions" role="button">Explore Digital Editions »</Link>
               </p>
             </ListItemInline>
 

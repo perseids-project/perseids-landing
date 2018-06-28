@@ -5,13 +5,13 @@ import ListItem from '../ListItem';
 
 import digmill from '../img/digmill.png';
 
-class Publications extends Component {
+class DigitalEditions extends Component {
   render() {
     return (
       <React.Fragment>
 
         <Hero
-          title="New Name Project Publications"
+          title="Digital Editions"
           text="Our aim with the New Name Project is to support a wide range of publication types for texts and data, from micro-publications to full-fledged digital editions. We collaborate on our publications with students, with scholars at several institutions, and with experts across multiple disciplines."
           background="text" />
 
@@ -46,4 +46,4 @@ class Publications extends Component {
   }
 }
 
-export default Publications;
+export default DigitalEditions;

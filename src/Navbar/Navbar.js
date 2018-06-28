@@ -21,7 +21,7 @@ class Navbar extends Component {
               <NavLink className="nav-link" to="/perseids-platform">Perseids Platform</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/publications">Publications</NavLink>
+              <NavLink className="nav-link" to="/digital-editions">Digital Editions</NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/libraries-tools">Libraries and Tools</NavLink>
