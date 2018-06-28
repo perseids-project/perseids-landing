@@ -25,7 +25,7 @@ class SoftwareLibraries  extends Component {
             alt="screenshot of Demixer">
 
               <p>
-                <a className="btn btn-primary" href="https://perseids-project.github.io/greek-latin-demixer/" role="button">Try out the Demixer »</a>
+                <a className="btn btn-secondary" href="https://perseids-project.github.io/greek-latin-demixer/" role="button">Try out the Demixer »</a>
               </p>
             </ListItem>
 

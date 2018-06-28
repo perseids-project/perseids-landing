@@ -33,7 +33,7 @@ class Publications extends Component {
             alt="screenshot of Digital Milliet">
 
               <p>
-                <a className="btn btn-primary" href="https://digmill.perseids.org/" role="button">Visit the Digital Milliet »</a>
+                <a className="btn btn-secondary" href="https://digmill.perseids.org/" role="button">Visit the Digital Milliet »</a>
               </p>
             </ListItem>
 

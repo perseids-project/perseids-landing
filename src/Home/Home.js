@@ -24,9 +24,6 @@ class Home extends Component {
               <p>
                 <Link className="btn btn-secondary mr-2" to="perseids-platform" role="button">Read more »</Link>
               </p>
-              <p>
-                <a className="btn btn-primary" href="https://sosol.perseids.org/sosol/signin" role="button">Log in »</a>
-              </p>
             </ListItemInline>
 
             <ListItemInline

@@ -11,7 +11,7 @@ class Footer extends Component {
   render() {
     return (
       <footer className="container mt-2">
-        <h6 className="text-center mb-3">The Perseids Project would not be possible without the support of:</h6>
+        <p className="text-center mb-3">The Perseids Project would not be possible without the support of:</p>
         <div className="row">
           <div className="col-md-4">
             <p>
