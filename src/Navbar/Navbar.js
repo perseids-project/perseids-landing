@@ -1,21 +1,30 @@
 import React, { Component } from 'react';
+import { NavbarToggler, Collapse } from 'reactstrap';
 
 import { NavLink } from "react-router-dom";
 
 import perseids_logo_transparent from '../img/perseids-logo-transparent.png';
 
 class Navbar extends Component {
+  state = {
+    collapsed: true,
+  }
+
+  toggleNavbar = () => {
+    this.setState({
+      collapsed: !this.state.collapsed
+    });
+  }
+
   render() {
     return (
       <nav className="navbar navbar-expand-md navbar-light bg-light">
         <NavLink className="navbar-brand" to="/">
           <img className="navbar-logo-img" src={perseids_logo_transparent} title="perseids logo" alt="perseids logo" />
         </NavLink>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
+        <NavbarToggler onClick={this.toggleNavbar} />
 
-        <div className="collapse navbar-collapse" id="navbarsExampleDefault">
+        <Collapse isOpen={!this.state.collapsed} navbar>
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
               <NavLink className="nav-link" to="/perseids-platform">Perseids Platform</NavLink>
@@ -36,7 +45,7 @@ class Navbar extends Component {
               <a className="nav-link" href="https://sosol.perseids.org/sosol/signin">Log in</a>
             </li>
           </ul>
-        </div>
+        </Collapse>
       </nav>
     );
   }
