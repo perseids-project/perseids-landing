@@ -28,12 +28,13 @@ body {
 
   @media (min-width: 500px) {
     background-size: 100% auto;
+    background-position: center;
   }
 }
 
 .text-background {
-  background-image: url('./img/background/text.jpg');
-  background-color: #a8873c;
+  background-image: url('./img/background/text.png');
+  background-color: #81672d;
 
   @media (min-width: 768px) {
     background-size: 100% auto;
@@ -43,10 +44,19 @@ body {
 .construction-background {
   background-image: url('./img/background/construction.jpg');
   background-color: #19140e;
+  background-position: center;
 
   @media (min-width: 768px) {
+    background-position: initial;
     background-size: 100% auto;
   }
+}
+
+.bg-dark-translucent {
+  background-color: rgba(52, 58, 64, 0.5);
+  padding: 2px 4px;
+  border-radius: 2px;
+  box-decoration-break: clone;
 }
 
 .footer-logo-img {

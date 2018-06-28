@@ -19,8 +19,10 @@ class Hero  extends Component {
     return (
       <div className={"jumbotron " + this.props.background + "-background"}>
         <div className="container text-light">
-          <h1 className="display-3">{this.props.title}</h1>
-          <p>{this.props.text}</p>
+          <h1 className="display-3 font-weight-normal">{this.props.title}</h1>
+          <p>
+            <span className="bg-dark-translucent">{this.props.text}</span>
+          </p>
         </div>
       </div>
     );
