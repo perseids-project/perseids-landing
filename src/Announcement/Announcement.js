@@ -10,7 +10,7 @@ const Announcement = () => (
         <h3>
           Help us prepare by
           {' '}
-          <a href='https://goo.gl/forms/oWpTBCEBe2C7Z0yv2" target="_blank" rel="noopener noreferrer'>
+          <a href="https://goo.gl/forms/oWpTBCEBe2C7Z0yv2" target="_blank" rel="noopener noreferrer">
             taking the survey!
           </a>
         </h3>
