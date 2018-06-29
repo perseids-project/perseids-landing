@@ -1,6 +1,6 @@
 html {
-  position: relative;
   min-height: 100%;
+  position: relative;
 }
 
 body {
@@ -8,20 +8,11 @@ body {
   margin-bottom: 62px;
 }
 
-.navbar-logo-img {
-  height: 40px;
-}
-
-.display-hero-header {
-  font-size: 4.0rem;
-  font-weight: 400;
-  line-height: 1.2;
-}
-
-.jumbotron {
-  background-repeat: no-repeat;
-  background-size: auto 100%;
-  border-radius: 0;
+.bg-dark-translucent {
+  background-color: rgba(52, 58, 64, 0.5);
+  border-radius: 2px;
+  box-decoration-break: clone;
+  padding: 2px 4px;
 }
 
 .border-bottom-sm {
@@ -32,71 +23,31 @@ body {
   }
 }
 
-.sunset-background {
-  // this would be ../img but it compiles the scss to ../index.css
-  background-image: url('./img/background/sunset.jpg');
-  background-color: #774828;
-
-  @media (min-width: 672px) {
-    background-size: 100% auto;
-  }
-}
-
-.columns-background {
-  background-image: url('./img/background/columns.jpg');
-  background-color: #b1b6bc;
-
-  @media (min-width: 500px) {
-    background-size: 100% auto;
-    background-position: center;
-  }
-}
-
-.text-background {
-  background-image: url('./img/background/text.png');
-  background-color: #81672d;
-
-  @media (min-width: 539px) {
-    background-size: 100% auto;
-  }
-}
-
-.construction-background {
-  background-image: url('./img/background/construction.jpg');
-  background-color: #19140e;
-  background-position: center;
-
-  @media (min-width: 768px) {
-    background-position: initial;
-    background-size: 100% auto;
-  }
-}
-
-.funerary-plaque-background {
-  background-image: url('./img/background/funerary-plaque.png');
-  background-color: #826145;
-
-  @media (min-width: 431px) {
-    background-size: 100% auto;
-  }
-}
-
-.bg-dark-translucent {
-  background-color: rgba(52, 58, 64, 0.5);
-  padding: 2px 4px;
-  border-radius: 2px;
-  box-decoration-break: clone;
-}
-
-.footer-sponsor-img {
-  height: 60px;
-  width: auto;
-  display: block;
-  margin: 0 auto;
+.display-hero-header {
+  font-size: 4.0rem;
+  font-weight: 400;
+  line-height: 1.2;
 }
 
 .footer-social-media-img {
   height: 30px;
+}
+
+.footer-sponsor-img {
+  display: block;
+  height: 60px;
+  margin: 0 auto;
+  width: auto;
+}
+
+.jumbotron {
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  border-radius: 0;
+}
+
+.navbar-logo-img {
+  height: 40px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -111,4 +62,54 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+/* backgrounds */
+.columns-background {
+  background-color: #b1b6bc;
+  // this would be ../img but it compiles the scss to ../index.css
+  background-image: url('./img/background/columns.jpg');
+
+  @media (min-width: 500px) {
+    background-position: center;
+    background-size: 100% auto;
+  }
+}
+
+.construction-background {
+  background-color: #19140e;
+  background-image: url('./img/background/construction.jpg');
+  background-position: center;
+
+  @media (min-width: 768px) {
+    background-position: initial;
+    background-size: 100% auto;
+  }
+}
+
+.funerary-plaque-background {
+  background-color: #826145;
+  background-image: url('./img/background/funerary-plaque.png');
+
+  @media (min-width: 431px) {
+    background-size: 100% auto;
+  }
+}
+
+.sunset-background {
+  background-color: #774828;
+  background-image: url('./img/background/sunset.jpg');
+
+  @media (min-width: 672px) {
+    background-size: 100% auto;
+  }
+}
+
+.text-background {
+  background-color: #81672d;
+  background-image: url('./img/background/text.png');
+
+  @media (min-width: 539px) {
+    background-size: 100% auto;
+  }
 }
