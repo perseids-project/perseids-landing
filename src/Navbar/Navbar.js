@@ -22,7 +22,7 @@ class Navbar extends Component {
         <NavLink className="navbar-brand" to="/">
           <img className="navbar-logo-img" src={perseidsLogoTransparent} title="perseids logo" alt="perseids logo" />
         </NavLink>
-        <NavbarToggler onClick={this.toggleNavbar} />
+        <NavbarToggler onClick={this.toggleNavbar} aria-label="navigation menu" />
 
         <Collapse isOpen={!collapsed} navbar>
           <ul className="navbar-nav mr-auto">
