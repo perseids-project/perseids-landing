@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Announcement from '../Announcement';
 import Hero from '../Hero';
 import ListItemInline from '../ListItemInline';
 
@@ -11,6 +12,10 @@ const Home = () => (
       text="The New Name Project aims to support access to scholarship in Classics for students and members of the public at all levels of competence. We provide a suite of tools that foster language acquisition, facilitate working with documents, and encourage research."
       background="sunset"
     />
+
+    <Announcement />
+
+    <hr />
 
     <div className="container mb-4">
       <div className="row">
