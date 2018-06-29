@@ -10,6 +10,8 @@ import NotFound from '../NotFound';
 import PerseidsPlatform from '../PerseidsPlatform';
 import SoftwareLibraries from '../SoftwareLibraries';
 
+import ImagePreload from '../ImagePreload';
+
 const App = () => (
   <Router>
     <React.Fragment>
@@ -26,6 +28,7 @@ const App = () => (
       </main>
 
       <Footer />
+      <ImagePreload />
     </React.Fragment>
   </Router>
 );

@@ -4,8 +4,8 @@ import github from '../../img/social-media/github.svg';
 import twitter from '../../img/social-media/twitter-alt.svg';
 
 const SocialMedia = () => (
-  <footer className="footer">
-    <nav className="navbar navbar-light bg-light">
+  <footer className="footer stick-to-bottom">
+    <nav className="navbar navbar-light bg-light py-0">
       <span className="navbar-text">
         © The New Name Project 2018
       </span>

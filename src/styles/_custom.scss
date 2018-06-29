@@ -1,5 +1,11 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
+  margin-bottom: 62px;
 }
 
 .navbar-logo-img {
@@ -95,4 +101,10 @@ body {
 
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.54);
+}
+
+.stick-to-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
