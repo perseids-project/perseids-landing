@@ -52,6 +52,15 @@ body {
   }
 }
 
+.funerary-plaque-background {
+  background-image: url('./img/background/funerary-plaque.png');
+  background-color: #826145;
+
+  @media (min-width: 431px) {
+    background-size: 100% auto;
+  }
+}
+
 .bg-dark-translucent {
   background-color: rgba(52, 58, 64, 0.5);
   padding: 2px 4px;

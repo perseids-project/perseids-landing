@@ -21,6 +21,7 @@ const backgrounds = [
   'columns',
   'text',
   'construction',
+  'funerary-plaque',
 ];
 
 Hero.propTypes = {
