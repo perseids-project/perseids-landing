@@ -10,14 +10,16 @@ const ListItem = ({
   link,
   linkText,
   hideImageSmall,
+  hasSeparator,
 }) => {
-  const textOrder = reverse ? 'col-md-6 order-md-6' : 'col-md-6';
-  const imageOrder = reverse ? 'col-md-6 order-md-1' : 'col-md-6';
-  const imageClass = hideImageSmall ? 'd-none d-md-block' : '';
+  const textOrder = reverse ? 'order-md-6' : '';
+  const imageOrder = reverse ? 'order-md-1' : '';
+  const imageDisplay = hideImageSmall ? 'd-none d-md-block' : '';
+  const rowBorder = hasSeparator ? 'border-bottom mb-4' : '';
 
   return (
-    <div className="row mb-4 align-items-center">
-      <div className={textOrder}>
+    <div className={`row pb-4 align-items-center ${rowBorder}`}>
+      <div className={`col-md-6 ${textOrder}`}>
         <h2>
           {title}
         </h2>
@@ -32,7 +34,7 @@ const ListItem = ({
           </p>
         )}
       </div>
-      <div className={`${imageOrder} ${imageClass}`}>
+      <div className={`col-md-6 ${imageOrder} ${imageDisplay}`}>
         <img className="img-fluid" src={image} alt={alt} />
       </div>
     </div>
@@ -46,6 +48,7 @@ ListItem.propTypes = {
   alt: PropTypes.string.isRequired,
   reverse: PropTypes.bool,
   hideImageSmall: PropTypes.bool,
+  hasSeparator: PropTypes.bool,
   link: PropTypes.string,
   linkText: PropTypes.string,
 };
@@ -53,6 +56,7 @@ ListItem.propTypes = {
 ListItem.defaultProps = {
   reverse: false,
   hideImageSmall: true,
+  hasSeparator: true,
   link: undefined,
   linkText: undefined,
 };

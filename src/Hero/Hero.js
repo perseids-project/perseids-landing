@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Hero = ({ title, text, background }) => (
   <div className={`jumbotron ${background}-background`}>
     <div className="container text-light">
-      <h1 className="display-3 font-weight-normal">
+      <h1 className="display-hero-header">
         {title}
       </h1>
       <p>

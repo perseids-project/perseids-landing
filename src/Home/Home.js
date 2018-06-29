@@ -12,7 +12,7 @@ const Home = () => (
       background="sunset"
     />
 
-    <div className="container mb-5">
+    <div className="container mb-4">
       <div className="row">
 
         <ListItemInline
@@ -22,6 +22,8 @@ const Home = () => (
           linkText="Read more"
         />
 
+        <hr className="d-md-none" />
+
         <ListItemInline
           title="Digital Editions"
           text="Our aim with the New Name Project is to support a wide range of publication types for the texts and data, from micro-publications to full-fledged digital editions. To develop our publications, we have collaborates with students, scholars of the classics at other institutions, and with scholars across disciplines."
@@ -29,11 +31,14 @@ const Home = () => (
           linkText="Explore digital editions"
         />
 
+        <hr className="d-md-none" />
+
         <ListItemInline
           title="Libraries and Tools"
           text="Our goal is to make all of our data and code open. We put all of our code on GitHub. As part of our work we often write tools, libraries, and APIs. As part of our goal of being open, all of these are available."
           link="libraries-tools"
           linkText="Learn more"
+          hasSeparator={false}
         />
       </div>
     </div>

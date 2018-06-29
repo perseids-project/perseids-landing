@@ -13,7 +13,7 @@ const DigitalEditions = () => (
       background="text"
     />
 
-    <div className="container mb-5">
+    <div className="container mb-4">
 
       <ListItem
         title="The Digital Milliet Project"
@@ -37,6 +37,7 @@ const DigitalEditions = () => (
         alt="screenshot of Digital Milliet"
         link="https://digmill.perseids.org/"
         linkText="Browse the Digital Milliet"
+        hasSeparator={false}
       />
     </div>
 

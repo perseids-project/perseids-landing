@@ -14,7 +14,7 @@ const SoftwareLibraries = () => (
       background="construction"
     />
 
-    <div className="container mb-5">
+    <div className="container mb-4">
 
       <ListItem
         title="Greek and Latin Demixer"
@@ -24,6 +24,7 @@ const SoftwareLibraries = () => (
         alt="screenshot of Demixer"
         link="https://perseids-project.github.io/greek-latin-demixer/"
         linkText="Try out the Demixer"
+        hasSeparator={false}
       />
     </div>
 

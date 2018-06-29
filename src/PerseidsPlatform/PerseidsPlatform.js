@@ -21,7 +21,7 @@ const PerseidsPlatform = () => (
 
     <hr />
 
-    <div className="container mb-5">
+    <div className="container mb-4">
       <ListItem
         title="Interacting with Ancient Documents"
         text="Since ancient documents, particularly text-based ones, can be difficult to access for non-specialists, our mission is to make it possible for editors to augment ancient texts with layers of explanatory materials in the form of annotations, image markup, commentary, and interactive graphs."
@@ -29,8 +29,6 @@ const PerseidsPlatform = () => (
         alt="treebanking"
         hideImageSmall={false}
       />
-
-      <hr />
 
       <ListItem
         title="Facilitating Teamwork"
@@ -41,8 +39,6 @@ const PerseidsPlatform = () => (
         hideImageSmall={false}
       />
 
-      <hr />
-
       <ListItem
         title="Cross-disciplinary Research"
         text="The platform is language-independent and currently accommodates Latin, Greek, and many other languages of the ancient and pre-modern world. This diversity means that we are fundamentally committed to a cross-disciplinary approach, and we encourage users to integrate data from other fields to enrich Humanities projects."
@@ -51,8 +47,6 @@ const PerseidsPlatform = () => (
         hideImageSmall={false}
       />
 
-      <hr />
-
       <ListItem
         title="Open Data"
         text="In order to support widespread data sharing, our core value is to put the data first, making sure that data produced through Perseids is compliant with community standards for open data, interoperability, and technology independence."
@@ -60,6 +54,7 @@ const PerseidsPlatform = () => (
         alt="sharing"
         reverse
         hideImageSmall={false}
+        hasSeparator={false}
       />
     </div>
 
