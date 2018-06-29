@@ -9,9 +9,11 @@ const ListItem = ({
   reverse,
   link,
   linkText,
+  hideImageSmall,
 }) => {
   const textOrder = reverse ? 'col-md-6 order-md-6' : 'col-md-6';
   const imageOrder = reverse ? 'col-md-6 order-md-1' : 'col-md-6';
+  const imageClass = hideImageSmall ? 'd-none d-md-block' : '';
 
   return (
     <div className="row mb-4 align-items-center">
@@ -30,7 +32,7 @@ const ListItem = ({
           </p>
         )}
       </div>
-      <div className={imageOrder}>
+      <div className={`${imageOrder} ${imageClass}`}>
         <img className="img-fluid" src={image} alt={alt} />
       </div>
     </div>
@@ -43,12 +45,14 @@ ListItem.propTypes = {
   image: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
   reverse: PropTypes.bool,
+  hideImageSmall: PropTypes.bool,
   link: PropTypes.string,
   linkText: PropTypes.string,
 };
 
 ListItem.defaultProps = {
   reverse: false,
+  hideImageSmall: true,
   link: undefined,
   linkText: undefined,
 };

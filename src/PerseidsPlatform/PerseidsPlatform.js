@@ -27,6 +27,7 @@ const PerseidsPlatform = () => (
         text="Since ancient documents, particularly text-based ones, can be difficult to access for non-specialists, our mission is to make it possible for editors to augment ancient texts with layers of explanatory materials in the form of annotations, image markup, commentary, and interactive graphs."
         image={treebank}
         alt="treebanking"
+        hideImageSmall={false}
       />
 
       <hr />
@@ -37,6 +38,7 @@ const PerseidsPlatform = () => (
         image={community}
         alt="community"
         reverse
+        hideImageSmall={false}
       />
 
       <hr />
@@ -46,6 +48,7 @@ const PerseidsPlatform = () => (
         text="The platform is language-independent and currently accommodates Latin, Greek, and many other languages of the ancient and pre-modern world. This diversity means that we are fundamentally committed to a cross-disciplinary approach, and we encourage users to integrate data from other fields to enrich Humanities projects."
         image={manuscript}
         alt="manuscript"
+        hideImageSmall={false}
       />
 
       <hr />
@@ -56,6 +59,7 @@ const PerseidsPlatform = () => (
         image={sharing}
         alt="sharing"
         reverse
+        hideImageSmall={false}
       />
     </div>
 
