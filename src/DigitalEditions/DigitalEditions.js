@@ -4,6 +4,7 @@ import Hero from '../Hero';
 import ListItem from '../ListItem';
 
 import digmill from '../img/digmill.png';
+import treebank from '../img/treebank.png';
 
 const DigitalEditions = () => (
   <React.Fragment>
@@ -37,6 +38,16 @@ const DigitalEditions = () => (
         alt="screenshot of Digital Milliet"
         link="https://digmill.perseids.org/"
         linkText="Browse the Digital Milliet"
+      />
+
+      <ListItem
+        title="Treebanking Publications"
+        text="Treebanks are morpho-syntactic commentaries on texts, sentence by sentence. Perseids allows students and scholars to build treebanks in an intuitive graphic interface while compiling the data in an XML document for analysis."
+        reverse
+        image={treebank}
+        alt="treebank"
+        link="http://sites.tufts.edu/perseids/publications/treebanking-publications/"
+        linkText="Learn more"
         hasSeparator={false}
       />
     </div>

@@ -4,6 +4,6 @@ import ReactDOM from 'react-dom';
 import Sponsors from './Sponsors';
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
+  const div = window.document.createElement('div');
   ReactDOM.render(<Sponsors />, div);
 });

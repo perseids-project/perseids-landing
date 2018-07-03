@@ -5,7 +5,7 @@ import { MemoryRouter } from 'react-router-dom';
 import Navbar from './Navbar';
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
+  const div = window.document.createElement('div');
   const component = (
     <MemoryRouter>
       <Navbar />

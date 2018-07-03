@@ -6,7 +6,7 @@ import ListItem from './ListItem';
 import treebank from '../img/treebank.png';
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
+  const div = window.document.createElement('div');
   const attributes = {
     title: 'hello',
     text: 'some text',

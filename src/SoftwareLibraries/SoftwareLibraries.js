@@ -4,6 +4,7 @@ import Hero from '../Hero';
 import ListItem from '../ListItem';
 
 import demixer from '../img/demixer.png';
+import manuscript from '../img/manuscript.png';
 
 const SoftwareLibraries = () => (
   <React.Fragment>
@@ -15,6 +16,15 @@ const SoftwareLibraries = () => (
     />
 
     <div className="container mb-4">
+      <ListItem
+        title="Imgspect"
+        text="Imgspect is a jQuery plugin that builds an application for captioning and transcribing select areas of large images."
+        reverse
+        image={manuscript}
+        alt="screenshot of imgspect"
+        link="https://github.com/perseids-project/imgspect"
+        linkText="View on GitHub"
+      />
 
       <ListItem
         title="Greek and Latin Demixer"

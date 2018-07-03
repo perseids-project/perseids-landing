@@ -5,7 +5,7 @@ import { MemoryRouter } from 'react-router-dom';
 import Home from './Home';
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
+  const div = window.document.createElement('div');
   const component = (
     <MemoryRouter>
       <Home />

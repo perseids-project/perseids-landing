@@ -5,7 +5,7 @@ import { MemoryRouter } from 'react-router-dom';
 import ListItemInline from './ListItemInline';
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
+  const div = window.document.createElement('div');
   const attributes = {
     title: 'hello',
     text: 'some text',
