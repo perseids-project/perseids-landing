@@ -13,7 +13,7 @@ import SoftwareLibraries from '../SoftwareLibraries';
 import ImagePreload from '../ImagePreload';
 
 const App = () => (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <React.Fragment>
       <Navbar />
 
