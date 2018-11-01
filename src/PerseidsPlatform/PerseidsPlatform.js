@@ -16,8 +16,6 @@ const PerseidsPlatform = () => (
       background="columns"
     />
 
-    <hr />
-
     <div className="container mb-4">
       <ListItem
         title="Interacting with Ancient Documents"

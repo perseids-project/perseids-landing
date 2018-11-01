@@ -12,8 +12,6 @@ const Home = () => (
       background="sunset"
     />
 
-    <hr />
-
     <div className="container mb-4">
       <div className="row">
 
