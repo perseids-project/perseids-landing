@@ -1,6 +1,6 @@
 # Perseids Landing
 
-The (perseids.org)[https://www.perseids.org/] homepage.
+The [perseids.org](https://www.perseids.org/) homepage.
 
 ## Installation
 
