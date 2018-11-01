@@ -11,7 +11,7 @@ const SoftwareLibraries = () => (
 
     <Hero
       title="Libraries and Tools"
-      text="All of the code at the New Name Project is free and open source. We try to extract any useful code to share with community by making a library, or web application, or API."
+      text="All of the code at the Perseids Project is free and open source. We try to extract any useful code to share with community by making a library, or web application, or API."
       background="construction"
     />
 

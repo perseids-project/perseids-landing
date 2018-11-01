@@ -8,8 +8,8 @@ const Home = () => (
   <React.Fragment>
 
     <Hero
-      title="The New Name Project"
-      text="The New Name Project aims to support access to scholarship in Classics for students and members of the public at all levels of competence. We provide a suite of tools that foster language acquisition, facilitate working with documents, and encourage research."
+      title="The Perseids Project"
+      text="The Perseids Project aims to support access to scholarship in Classics for students and members of the public at all levels of competence. We provide a suite of tools that foster language acquisition, facilitate working with documents, and encourage research."
       background="sunset"
     />
 
@@ -31,7 +31,7 @@ const Home = () => (
 
         <ListItemInline
           title="Digital Editions"
-          text="Our aim with the New Name Project is to support a wide range of publication types for the texts and data, from micro-publications to full-fledged digital editions. To develop our publications, we have collaborates with students, scholars of the classics at other institutions, and with scholars across disciplines."
+          text="Our aim with the Perseids Project is to support a wide range of publication types for the texts and data, from micro-publications to full-fledged digital editions. To develop our publications, we have collaborates with students, scholars of the classics at other institutions, and with scholars across disciplines."
           link="digital-editions"
           linkText="Explore digital editions"
         />

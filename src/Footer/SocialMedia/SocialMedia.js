@@ -7,7 +7,7 @@ const SocialMedia = () => (
   <footer className="footer stick-to-bottom">
     <nav className="navbar navbar-light bg-light py-0">
       <span className="navbar-text">
-        © The New Name Project 2018
+        © The Perseids Project 2018
       </span>
 
       <ul className="navbar-nav my-2 my-lg-02 flex-row">

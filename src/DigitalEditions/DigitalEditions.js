@@ -10,7 +10,7 @@ const DigitalEditions = () => (
   <React.Fragment>
     <Hero
       title="Digital Editions"
-      text="Our aim with the New Name Project is to support a wide range of publication types for texts and data, from micro-publications to full-fledged digital editions. We collaborate on our publications with students, with scholars at several institutions, and with experts across multiple disciplines."
+      text="Our aim with the Perseids Project is to support a wide range of publication types for texts and data, from micro-publications to full-fledged digital editions. We collaborate on our publications with students, with scholars at several institutions, and with experts across multiple disciplines."
       background="text"
     />
 

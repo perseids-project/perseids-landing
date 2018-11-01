@@ -11,7 +11,7 @@ it('renders without crashing', () => {
 it('renders title', () => {
   const { getByText } = render(<App />);
 
-  expect(getByText('The New Name Project')).toBeInTheDOM();
+  expect(getByText('The Perseids Project')).toBeInTheDOM();
 });
 
 it('renders announcement', () => {
@@ -37,7 +37,7 @@ it('renders sponsors', () => {
 it('renders social media', () => {
   const { getByText } = render(<App />);
 
-  expect(getByText('© The New Name Project 2018')).toBeInTheDOM();
+  expect(getByText('© The Perseids Project 2018')).toBeInTheDOM();
 });
 
 describe('navbar navigation', () => {
