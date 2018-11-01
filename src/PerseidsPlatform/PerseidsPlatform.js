@@ -2,7 +2,6 @@ import React from 'react';
 
 import Hero from '../Hero';
 import ListItem from '../ListItem';
-import Announcement from '../Announcement';
 
 import treebank from '../img/treebank.png';
 import community from '../img/community.png';
@@ -16,8 +15,6 @@ const PerseidsPlatform = () => (
       text="Perseids offers a free and open online environment to produce collaborative data-driven editions of ancient documents."
       background="columns"
     />
-
-    <Announcement />
 
     <hr />
 

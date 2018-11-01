@@ -14,12 +14,6 @@ it('renders title', () => {
   expect(getByText('The Perseids Project')).toBeInTheDOM();
 });
 
-it('renders announcement', () => {
-  const { getByText } = render(<App />);
-
-  expect(getByText("We're having a Perseids User Summit on August 21, 2018.")).toBeInTheDOM();
-});
-
 it('renders subsections and navbar', () => {
   const { queryAllByText } = render(<App />);
 
