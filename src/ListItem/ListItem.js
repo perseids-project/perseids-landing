@@ -1,6 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+const renderLink = (link, linkText, key) => (
+  <p key={key}>
+    <a className="btn btn-secondary" href={link} role="button">
+      {`${linkText || link} »`}
+    </a>
+  </p>
+);
+
+const renderLinks = links => links.map(({ link, text, key }) => renderLink(link, text, key));
+
 const ListItem = ({
   title,
   id,
@@ -19,18 +29,6 @@ const ListItem = ({
   const imageDisplay = hideImageSmall ? 'd-none d-md-block' : '';
   const rowBorder = hasSeparator ? 'border-bottom mb-4' : '';
 
-  const renderLink = (link, linkText, key) => {
-    key = key || "link";
-
-    return (
-      <p key={key}>
-        <a className="btn btn-secondary" href={link} role="button">
-          {`${linkText || link} »`}
-        </a>
-      </p>
-    );
-  };
-
   return (
     <div className={`row pb-4 align-items-center ${rowBorder}`} id={id}>
       <div className={`col-md-6 ${textOrder}`}>
@@ -41,7 +39,7 @@ const ListItem = ({
           {text}
         </p>
         {link && renderLink(link, linkText)}
-        {links && links.map(({ link, text, key }) => renderLink(link, text, key))}
+        {links && renderLinks(links) }
       </div>
       <div className={`col-md-6 ${imageOrder} ${imageDisplay}`}>
         <img className="img-fluid" src={image} alt={alt} />
@@ -60,7 +58,11 @@ ListItem.propTypes = {
   hideImageSmall: PropTypes.bool,
   hasSeparator: PropTypes.bool,
   link: PropTypes.string,
-  links: PropTypes.arrayOf(PropTypes.shape({ link: PropTypes.string, text: PropTypes.string, key: PropTypes.string })),
+  links: PropTypes.arrayOf(PropTypes.shape({
+    link: PropTypes.string,
+    text: PropTypes.string,
+    key: PropTypes.string,
+  })),
   linkText: PropTypes.string,
 };
 

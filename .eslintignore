@@ -1,3 +1,4 @@
 src/index.js
 src/registerServiceWorker.js
 src/setupTests.js
+build/

@@ -24,7 +24,7 @@ const SoftwareLibraries = () => (
         reverse
         image={lexicon}
         alt="picture of a Greek-English dictionary"
-        links={[{link: "https://apps.perseids.org/lsj", text: "Liddell–Scott–Jones", key: "lsj"}, {link: "https://apps.perseids.org/woodhouse", text: "Woodhouse", key: "woodhouse"}]}
+        links={[{ link: 'https://apps.perseids.org/lsj', text: 'Liddell–Scott–Jones', key: 'lsj' }, { link: 'https://apps.perseids.org/woodhouse', text: 'Woodhouse', key: 'woodhouse' }]}
       />
 
       <ListItem
