@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 const ListItemInline = ({
   title,
+  id,
   text,
   link,
   linkText,
@@ -12,7 +13,7 @@ const ListItemInline = ({
   const rowBorder = hasSeparator ? 'border-bottom-sm mb-4' : '';
 
   return (
-    <div className={`col-md-4 pb-2 ${rowBorder}`}>
+    <div className={`col-md-4 pb-2 ${rowBorder}`} id={id}>
       <h2>
         {title}
       </h2>
@@ -30,6 +31,7 @@ const ListItemInline = ({
 
 ListItemInline.propTypes = {
   title: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
   linkText: PropTypes.string.isRequired,

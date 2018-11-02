@@ -9,6 +9,7 @@ it('renders without crashing', () => {
   const div = window.document.createElement('div');
   const attributes = {
     title: 'hello',
+    id: 'hello',
     text: 'some text',
     image: treebank,
     alt: 'treebank',

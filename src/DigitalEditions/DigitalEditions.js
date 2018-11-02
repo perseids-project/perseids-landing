@@ -18,6 +18,7 @@ const DigitalEditions = () => (
 
       <ListItem
         title="The Digital Milliet Project"
+        id="digital-milliet"
         text={(
           <span>
             Our goal with The Digital Milliet Project is to make ancient Greek and Latin texts
@@ -42,6 +43,7 @@ const DigitalEditions = () => (
 
       <ListItem
         title="Treebanking Publications"
+        id="treebanking-publications"
         text="Treebanks are morpho-syntactic commentaries on texts, sentence by sentence. Perseids allows students and scholars to build treebanks in an intuitive graphic interface while compiling the data in an XML document for analysis."
         reverse
         image={treebank}

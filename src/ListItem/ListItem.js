@@ -3,11 +3,13 @@ import PropTypes from 'prop-types';
 
 const ListItem = ({
   title,
+  id,
   text,
   image,
   alt,
   reverse,
   link,
+  links,
   linkText,
   hideImageSmall,
   hasSeparator,
@@ -17,8 +19,20 @@ const ListItem = ({
   const imageDisplay = hideImageSmall ? 'd-none d-md-block' : '';
   const rowBorder = hasSeparator ? 'border-bottom mb-4' : '';
 
+  const renderLink = (link, linkText, key) => {
+    key = key || "link";
+
+    return (
+      <p key={key}>
+        <a className="btn btn-secondary" href={link} role="button">
+          {`${linkText || link} »`}
+        </a>
+      </p>
+    );
+  };
+
   return (
-    <div className={`row pb-4 align-items-center ${rowBorder}`}>
+    <div className={`row pb-4 align-items-center ${rowBorder}`} id={id}>
       <div className={`col-md-6 ${textOrder}`}>
         <h2>
           {title}
@@ -26,13 +40,8 @@ const ListItem = ({
         <p>
           {text}
         </p>
-        {link && (
-          <p>
-            <a className="btn btn-secondary" href={link} role="button">
-              {`${linkText || link} »`}
-            </a>
-          </p>
-        )}
+        {link && renderLink(link, linkText)}
+        {links && links.map(({ link, text, key }) => renderLink(link, text, key))}
       </div>
       <div className={`col-md-6 ${imageOrder} ${imageDisplay}`}>
         <img className="img-fluid" src={image} alt={alt} />
@@ -43,6 +52,7 @@ const ListItem = ({
 
 ListItem.propTypes = {
   title: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
   text: PropTypes.oneOfType([PropTypes.string, PropTypes.element]).isRequired,
   image: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
@@ -50,6 +60,7 @@ ListItem.propTypes = {
   hideImageSmall: PropTypes.bool,
   hasSeparator: PropTypes.bool,
   link: PropTypes.string,
+  links: PropTypes.arrayOf(PropTypes.shape({ link: PropTypes.string, text: PropTypes.string, key: PropTypes.string })),
   linkText: PropTypes.string,
 };
 
@@ -58,6 +69,7 @@ ListItem.defaultProps = {
   hideImageSmall: true,
   hasSeparator: true,
   link: undefined,
+  links: undefined,
   linkText: undefined,
 };
 

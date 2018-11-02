@@ -17,6 +17,7 @@ const Home = () => (
 
         <ListItemInline
           title="Perseids Platform"
+          id="perseids-platform"
           text="The Perseids Platform is a free and open online environment for producing data-driven editions of ancient documents. The Platform allows users to collaborate on producing digital versions of documentary materials from the ancient world."
           link="perseids-platform"
           linkText="Read more"
@@ -26,6 +27,7 @@ const Home = () => (
 
         <ListItemInline
           title="Digital Editions"
+          id="digital-editions"
           text="Our aim with the Perseids Project is to support a wide range of publication types for the texts and data, from micro-publications to full-fledged digital editions. To develop our publications, we collaborate with students, scholars at other institutions, and researchers across disciplines."
           link="digital-editions"
           linkText="Explore digital editions"
@@ -35,6 +37,7 @@ const Home = () => (
 
         <ListItemInline
           title="Libraries and Tools"
+          id="libraries"
           text="As part of our work we often write tools, libraries, and APIs. Since one of our goals with the Perseids Project is to make all of our data and code open, we release our programs as free software for anyone to use or modify."
           link="libraries-tools"
           linkText="Learn more"
