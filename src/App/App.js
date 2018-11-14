@@ -9,6 +9,7 @@ import Home from '../Home';
 import NotFound from '../NotFound';
 import PerseidsPlatform from '../PerseidsPlatform';
 import SoftwareLibraries from '../SoftwareLibraries';
+import Contact from '../Contact';
 
 import ImagePreload from '../ImagePreload';
 
@@ -23,6 +24,7 @@ const App = () => (
           <Route exact path="/digital-editions" component={DigitalEditions} />
           <Route exact path="/libraries-tools" component={SoftwareLibraries} />
           <Route exact path="/perseids-platform" component={PerseidsPlatform} />
+          <Route exact path="/contact" component={Contact} />
           <Route component={NotFound} />
         </Switch>
       </main>

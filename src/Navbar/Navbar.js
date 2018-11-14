@@ -38,6 +38,11 @@ class Navbar extends Component {
               </NavLink>
             </li>
             <li className="nav-item">
+              <NavLink className="nav-link" to="/contact">
+                Contact Us
+              </NavLink>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="https://sites.tufts.edu/perseids/">
                 Blog
               </a>

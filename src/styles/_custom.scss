@@ -86,11 +86,12 @@ body {
   }
 }
 
-.funerary-plaque-background {
-  background-color: #826145;
-  background-image: url('./img/background/funerary-plaque.png');
+.hermes-background {
+  background-color: #c0805b;
+  background-image: url('./img/background/hermes.jpg');
 
-  @media (min-width: 431px) {
+  @media (min-width: 715px) {
+    background-position: center;
     background-size: 100% auto;
   }
 }
@@ -109,6 +110,15 @@ body {
   background-image: url('./img/background/text.png');
 
   @media (min-width: 539px) {
+    background-size: 100% auto;
+  }
+}
+
+.funerary-plaque-background {
+  background-color: #826145;
+  background-image: url('./img/background/funerary-plaque.png');
+
+  @media (min-width: 431px) {
     background-size: 100% auto;
   }
 }

@@ -1,16 +1,18 @@
 import React from 'react';
 
-import sunset from '../img/background/sunset.jpg';
 import columns from '../img/background/columns.jpg';
-import text from '../img/background/text.png';
 import construction from '../img/background/construction.jpg';
+import hermes from '../img/background/hermes.jpg';
+import sunset from '../img/background/sunset.jpg';
+import text from '../img/background/text.png';
 import funeraryPlaque from '../img/background/funerary-plaque.png';
 
 const images = {
-  sunset,
   columns,
-  text,
   construction,
+  hermes,
+  sunset,
+  text,
   'funerary-plaque': funeraryPlaque,
 };
 
