@@ -36,7 +36,7 @@ it('renders social media', () => {
 
 describe('navbar navigation', () => {
   it('goes to the perseids platform', () => {
-    const { getByText, getByAltText } = render(<App />);
+    const { getByText } = render(<App />);
 
     expect(window.location.pathname).toEqual('/');
 
@@ -44,20 +44,16 @@ describe('navbar navigation', () => {
 
     expect(window.location.pathname).toEqual('/perseids-platform');
     expect(getByText('The Perseids Platform')).toBeInTheDOM();
-
-    fireEvent.click(getByAltText('perseids logo'));
   });
 
   it('goes to the digital editions', () => {
-    const { getByText, getByAltText } = render(<App />);
+    const { getByText } = render(<App />);
 
-    expect(window.location.pathname).toEqual('/');
+    expect(window.location.pathname).toEqual('/perseids-platform');
 
     fireEvent.click(getByText('Digital Editions'));
 
     expect(window.location.pathname).toEqual('/digital-editions');
     expect(getByText('Digital Editions')).toBeInTheDOM();
-
-    fireEvent.click(getByAltText('perseids logo'));
   });
 });

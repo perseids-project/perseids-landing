@@ -1,12 +1,12 @@
 import React from 'react';
+import { PerseidsFooter } from 'perseids-react-components';
 
 import Sponsors from './Sponsors';
-import SocialMedia from './SocialMedia';
 
 const Footer = () => (
   <React.Fragment>
     <Sponsors />
-    <SocialMedia />
+    <PerseidsFooter />
   </React.Fragment>
 );
 

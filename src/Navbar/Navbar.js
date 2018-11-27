@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { NavbarToggler, Collapse } from 'reactstrap';
+import { PerseidsHeader } from 'perseids-react-components';
 
 import { NavLink } from 'react-router-dom';
-
-import perseidsLogoTransparent from '../img/perseids-logo-transparent.png';
 
 class Navbar extends Component {
   state = {
@@ -18,10 +17,7 @@ class Navbar extends Component {
     const { collapsed } = this.state;
 
     return (
-      <nav className="navbar navbar-expand-md navbar-light bg-light">
-        <NavLink className="navbar-brand" to="/">
-          <img className="navbar-logo-img" src={perseidsLogoTransparent} title="perseids logo" alt="perseids logo" />
-        </NavLink>
+      <PerseidsHeader>
         <NavbarToggler onClick={this.toggleNavbar} aria-label="navigation menu" />
 
         <Collapse isOpen={!collapsed} navbar>
@@ -56,7 +52,7 @@ class Navbar extends Component {
             </li>
           </ul>
         </Collapse>
-      </nav>
+      </PerseidsHeader>
     );
   }
 }
