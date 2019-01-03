@@ -16,7 +16,7 @@ const SoftwareLibraries = () => (
       background="construction"
     />
 
-    <div className="container mb-4">
+    <div className="container">
       <ListItem
         title="Dictionaries"
         id="lexica"

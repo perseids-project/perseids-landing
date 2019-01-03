@@ -11,6 +11,12 @@ const renderLink = (link, linkText, key) => (
 
 const renderLinks = links => links.map(({ link, text, key }) => renderLink(link, text, key));
 
+const renderText = text => (
+  <p>
+    {text}
+  </p>
+);
+
 const ListItem = ({
   title,
   id,
@@ -23,6 +29,7 @@ const ListItem = ({
   linkText,
   hideImageSmall,
   hasSeparator,
+  children,
 }) => {
   const textOrder = reverse ? 'order-md-6' : '';
   const imageOrder = reverse ? 'order-md-1' : '';
@@ -35,9 +42,8 @@ const ListItem = ({
         <h2>
           {title}
         </h2>
-        <p>
-          {text}
-        </p>
+        {text && renderText(text)}
+        {children}
         {link && renderLink(link, linkText)}
         {links && renderLinks(links) }
       </div>
@@ -51,7 +57,7 @@ const ListItem = ({
 ListItem.propTypes = {
   title: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
-  text: PropTypes.oneOfType([PropTypes.string, PropTypes.element]).isRequired,
+  text: PropTypes.string,
   image: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
   reverse: PropTypes.bool,
@@ -64,15 +70,18 @@ ListItem.propTypes = {
     key: PropTypes.string,
   })),
   linkText: PropTypes.string,
+  children: PropTypes.node,
 };
 
 ListItem.defaultProps = {
+  text: undefined,
   reverse: false,
   hideImageSmall: true,
   hasSeparator: true,
   link: undefined,
   links: undefined,
   linkText: undefined,
+  children: undefined,
 };
 
 export default ListItem;
