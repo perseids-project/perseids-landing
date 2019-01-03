@@ -99,10 +99,7 @@ body {
 .sunset-background {
   background-color: #774828;
   background-image: url('./img/background/sunset.jpg');
-
-  @media (min-width: 672px) {
-    background-size: 100% auto;
-  }
+  background-size: cover;
 }
 
 .text-background {
