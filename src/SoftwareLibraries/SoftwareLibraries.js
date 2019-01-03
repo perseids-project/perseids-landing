@@ -3,9 +3,10 @@ import React from 'react';
 import Hero from '../Hero';
 import ListItem from '../ListItem';
 
+import code from '../img/code.png';
 import demixer from '../img/demixer.png';
 import lexicon from '../img/lexicon.png';
-import manuscript from '../img/manuscript.png';
+import morphsvc from '../img/morphsvc.png';
 
 const SoftwareLibraries = () => (
   <React.Fragment>
@@ -24,7 +25,10 @@ const SoftwareLibraries = () => (
         reverse
         image={lexicon}
         alt="picture of a Greek-English dictionary"
-        links={[{ link: 'https://apps.perseids.org/lsj', text: 'Liddell–Scott–Jones', key: 'lsj' }, { link: 'https://apps.perseids.org/woodhouse', text: 'Woodhouse', key: 'woodhouse' }]}
+        links={[
+          { link: 'https://apps.perseids.org/lsj', text: 'LSJ Greek-English Lexicon', key: 'lsj' },
+          { link: 'https://apps.perseids.org/woodhouse', text: 'Woodhouse English-Greek Dictionary', key: 'woodhouse' },
+        ]}
       />
 
       <ListItem
@@ -39,16 +43,60 @@ const SoftwareLibraries = () => (
       />
 
       <ListItem
-        title="Imgspect"
-        id="imgspect"
-        text="Imgspect is a jQuery plugin that builds an application for captioning and transcribing select areas of large images."
+        title="Morphology Service"
+        id="morphology"
         reverse
-        image={manuscript}
-        alt="screenshot of imgspect"
-        link="https://github.com/perseids-project/imgspect"
-        linkText="View on GitHub"
+        image={morphsvc}
+        alt="XML output of morphology API"
+        links={[
+          { link: 'https://sites.tufts.edu/perseusupdates/2012/11/01/morphology-service-beta/', text: 'Learn more about the API', key: 'morphology-service-info' },
+          { link: 'https://github.com/perseids-tools/morpheus-perseids', text: 'See the Perseids version of Morpheus', key: 'morpheus-perseids-info' },
+        ]}
+      >
+        <p>
+          The Perseids Project provides a morphology API that performs morphological
+          analysis on Greek and Latin text.
+          The API uses a modified version of the
+          {' '}
+          <a href="https://wiki.digitalclassicist.org/Morpheus" arget="_blank" rel="noopener noreferrer">
+            Morpheus morphological analysis engine
+          </a>
+          .
+        </p>
+      </ListItem>
+
+      <ListItem
+        title="Other Repositories"
+        id="repositories"
+        reverse
+        image={code}
+        alt="screenshot of code"
         hasSeparator={false}
-      />
+      >
+        <React.Fragment>
+          <p>
+            The source for all of the code written for The Perseids Project is available on GitHub.
+            Explore our repositories to learn more.
+          </p>
+          <ul className="pl-4">
+            <li>
+              <a href="https://github.com/perseids-tools">
+                Tools and libraries
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/perseids-project">
+                Web applications and APIs
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/perseids-publications">
+                Publications and publication templates
+              </a>
+            </li>
+          </ul>
+        </React.Fragment>
+      </ListItem>
     </div>
 
     <hr />

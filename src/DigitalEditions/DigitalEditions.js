@@ -100,27 +100,27 @@ const DigitalEditions = () => (
             </li>
             <li>
               <a href="http://pubs.perseids.org/berti_demo/src/">
-                Fragmentary Texts
+                Fragmentary texts
               </a>
             </li>
             <li>
               <a href="https://www.perseids.org/sites/vortex/digitaledition/tlg0012.tlg001.perseus-grc1.de.html">
-                Thematic Annotation
+                Thematic annotation
               </a>
             </li>
             <li>
               <a href="https://www.perseids.org/sites/alignment-prototypes/">
-                Translation Alignments
+                Translation alignments
               </a>
             </li>
             <li>
               <a href="https://www.perseids.org/sites/joth/#index">
-                Social Networks, Places and Texts
+                Social networks, places and texts
               </a>
             </li>
             <li>
               <a href="https://www.perseids.org/sites/tuftsmythf13_pubs.html">
-                Student Commentaries
+                Student commentaries
               </a>
             </li>
           </ul>
