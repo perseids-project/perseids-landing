@@ -94,7 +94,7 @@ const DigitalEditions = () => (
           </p>
           <ul className="pl-4">
             <li>
-              <a href="https://www.perseids.org/sites/epifacs/">
+              <a href="http://pubs.perseids.org/epifacs/src/">
                 Epigraphy
               </a>
             </li>
@@ -104,22 +104,22 @@ const DigitalEditions = () => (
               </a>
             </li>
             <li>
-              <a href="https://www.perseids.org/sites/vortex/digitaledition/tlg0012.tlg001.perseus-grc1.de.html">
+              <a href="http://pubs.perseids.org/vortex/digitaledition/tlg0012.tlg001.perseus-grc1.de.html">
                 Thematic annotation
               </a>
             </li>
             <li>
-              <a href="https://www.perseids.org/sites/alignment-prototypes/">
+              <a href="http://pubs.perseids.org/alignment-prototypes/">
                 Translation alignments
               </a>
             </li>
             <li>
-              <a href="https://www.perseids.org/sites/joth/#index">
+              <a href="http://joth.perseids.org/joth.html#index">
                 Social networks, places and texts
               </a>
             </li>
             <li>
-              <a href="https://www.perseids.org/sites/tuftsmythf13_pubs.html">
+              <a href="/sites/tuftsmythf13_pubs.html">
                 Student commentaries
               </a>
             </li>

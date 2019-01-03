@@ -38,7 +38,7 @@ const SoftwareLibraries = () => (
         reverse
         image={demixer}
         alt="screenshot of Demixer"
-        link="https://apps.perseids.org/greek-latin-demixer"
+        link="https://perseids-project.github.io/greek-latin-demixer/"
         linkText="Try out the Demixer"
       />
 
