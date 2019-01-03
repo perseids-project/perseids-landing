@@ -26,8 +26,8 @@ const SoftwareLibraries = () => (
         image={lexicon}
         alt="picture of a Greek-English dictionary"
         links={[
-          { link: 'https://apps.perseids.org/lsj', text: 'LSJ Greek-English Lexicon', key: 'lsj' },
-          { link: 'https://apps.perseids.org/woodhouse', text: 'Woodhouse English-Greek Dictionary', key: 'woodhouse' },
+          { link: 'https://perseids-project.github.io/lsj-js/', text: 'LSJ Greek-English Lexicon', key: 'lsj' },
+          { link: 'https://perseids-project.github.io/woodhouse-js/', text: 'Woodhouse English-Greek Dictionary', key: 'woodhouse' },
         ]}
       />
 
