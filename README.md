@@ -30,4 +30,8 @@ If you want to deploy it at `www.example.com/homepage` then run
 
 ## Deploying a new version to github.io
 
-`yarn deploy`
+`yarn deploy-github`
+
+## Deploying a new version to www.perseids.org
+
+`yarn deploy-perseids`
