@@ -123,3 +123,13 @@ body {
 .ul-within-publication {
   padding-left: 18px;
 }
+
+.noscript-fake-navbar {
+  .nav-link.active {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .nav-link {
+    color: rgba(0, 0, 0, .54);
+  }
+}
