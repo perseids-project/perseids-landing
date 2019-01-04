@@ -119,7 +119,7 @@ const DigitalEditions = () => (
               </a>
             </li>
             <li>
-              <a href="/sites/tuftsmythf13_pubs.html">
+              <a href={`${process.env.PUBLIC_URL}/sites/tuftsmythf13_pubs.html`}>
                 Student commentaries
               </a>
             </li>

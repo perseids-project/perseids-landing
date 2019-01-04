@@ -1,7 +1,7 @@
 import React from 'react';
 import { hydrate, render } from "react-dom";
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import { unregister } from './registerServiceWorker';
 import './index.css';
 import 'perseids-react-components/build/css/index.css';
 
@@ -13,4 +13,4 @@ if (rootElement.hasChildNodes()) {
   render(<App />, rootElement);
 }
 
-registerServiceWorker();
+unregister();
