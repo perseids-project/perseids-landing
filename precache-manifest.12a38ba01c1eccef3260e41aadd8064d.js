@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/static/media/morphsvc.452a4e93.png"
   },
   {
-    "revision": "332f85c87aa0648bb1cd",
-    "url": "/static/js/1.332f85c8.chunk.js"
+    "revision": "d795947171051e4c7dae",
+    "url": "/static/js/1.d7959471.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -104,11 +104,11 @@ self.__precacheManifest = [
     "url": "/static/media/lexicon.6bd6c910.png"
   },
   {
-    "revision": "332f85c87aa0648bb1cd",
-    "url": "/static/css/1.32733b54.chunk.css"
+    "revision": "d795947171051e4c7dae",
+    "url": "/static/css/1.00b0074c.chunk.css"
   },
   {
-    "revision": "25348109f4ebfbbb7277ec88443ceef3",
+    "revision": "5ee70c8fcdce1a5b2366c40353897162",
     "url": "/index.html"
   }
 ];
