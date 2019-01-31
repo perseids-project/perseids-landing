@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/perseids-landing/static/media/morphsvc.452a4e93.png"
   },
   {
-    "revision": "332f85c87aa0648bb1cd",
-    "url": "/perseids-landing/static/js/1.332f85c8.chunk.js"
+    "revision": "d795947171051e4c7dae",
+    "url": "/perseids-landing/static/js/1.d7959471.chunk.js"
   },
   {
     "revision": "1e1906433b6ce5883956",
@@ -104,11 +104,11 @@ self.__precacheManifest = [
     "url": "/perseids-landing/static/media/lexicon.6bd6c910.png"
   },
   {
-    "revision": "332f85c87aa0648bb1cd",
-    "url": "/perseids-landing/static/css/1.32733b54.chunk.css"
+    "revision": "d795947171051e4c7dae",
+    "url": "/perseids-landing/static/css/1.00b0074c.chunk.css"
   },
   {
-    "revision": "d99542b1797e7564b36ce37467b99e3a",
+    "revision": "31f1c06b421bb9c703eb1501d4f95165",
     "url": "/perseids-landing/index.html"
   }
 ];
