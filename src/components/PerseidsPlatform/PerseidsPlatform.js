@@ -3,10 +3,10 @@ import React from 'react';
 import Hero from '../Hero';
 import ListItem from '../ListItem';
 
-import treebank from '../img/treebank.png';
-import community from '../img/community.png';
-import manuscript from '../img/manuscript.png';
-import sharing from '../img/sharing.png';
+import treebank from '../../img/treebank.png';
+import community from '../../img/community.png';
+import manuscript from '../../img/manuscript.png';
+import sharing from '../../img/sharing.png';
 
 const PerseidsPlatform = () => (
   <React.Fragment>
