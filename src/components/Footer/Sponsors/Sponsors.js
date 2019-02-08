@@ -1,11 +1,11 @@
 import React from 'react';
 
-import frqsc from '../../img/sponsor/frqsc.png';
-import imls from '../../img/sponsor/imls.png';
-import kress from '../../img/sponsor/kress.png';
-import mellon from '../../img/sponsor/mellon.jpg';
-import neh from '../../img/sponsor/neh.png';
-import tufts from '../../img/sponsor/tufts.png';
+import frqsc from '../../../img/sponsor/frqsc.png';
+import imls from '../../../img/sponsor/imls.png';
+import kress from '../../../img/sponsor/kress.png';
+import mellon from '../../../img/sponsor/mellon.jpg';
+import neh from '../../../img/sponsor/neh.png';
+import tufts from '../../../img/sponsor/tufts.png';
 
 const Sponsors = () => (
   <footer className="footer">
