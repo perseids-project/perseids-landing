@@ -18,7 +18,7 @@ const Home = () => (
         <ListItemInline
           title="Perseids Platform"
           id="perseids-platform"
-          text="The Perseids Platform is a free and open online environment for producing data-driven editions of ancient documents. The Platform allows users to collaborate on producing digital versions of documentary materials from the ancient world."
+          text="The Perseids Platform is a free and open online environment for producing data-driven editions of ancient documents. The Platform allows users to collaborate on editing and publishing documentary materials from the ancient world."
           to="perseids-platform"
           linkText="Read more"
         />

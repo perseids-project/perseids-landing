@@ -3,9 +3,9 @@ import React from 'react';
 import Hero from '../Hero';
 import ListItem from '../ListItem';
 
+import ancientbirds from '../../img/ancientbirds.png';
 import digmill from '../../img/digmill.png';
 import treebank from '../../img/treebank.png';
-import agldt from '../../img/agldt.png';
 import bodin from '../../img/bodin.png';
 
 const DigitalEditions = () => (
@@ -17,6 +17,17 @@ const DigitalEditions = () => (
     />
 
     <div className="container">
+
+      <ListItem
+        title="Birds in Ancient Mythology"
+        id="ancientbirds"
+        text="This project, which is still a work in progress, invites the public to engage with the fields of classics and ornithology via a series of short films based on D’Arcy Thompson’s Glossary of Greek Birds accompanied by digital content shared as Open Linked Data. The goal is that, through these products, the public will have an opportunity to explore the intersection of science and the humanities."
+        reverse
+        image={ancientbirds}
+        alt="screenshot of Birds in Ancient Mythology"
+        link="https://sites.tufts.edu/ancientbirds/"
+        linkText="Learn more"
+      />
 
       <ListItem
         title="The Digital Milliet Project"
@@ -49,35 +60,12 @@ const DigitalEditions = () => (
         reverse
         image={treebank}
         alt="picture of treebank"
-        links={[{ link: 'https://perseids-project.github.io/harrington_trees/', text: 'J. M. Harrington Published Trees', key: 'harrington-trees' }, { link: 'https://perseids-publications.github.io/gorman-trees/', text: 'Treebanks by Vanessa and Bob Gorman', key: 'gorman-trees' }]}
+        links={[
+          { link: 'https://perseids-project.github.io/harrington_trees/', text: 'J. M. Harrington Published Trees', key: 'harrington-trees' },
+          { link: 'https://perseids-publications.github.io/gorman-trees/', text: 'Treebanks by Vanessa and Bob Gorman', key: 'gorman-trees' },
+          { link: 'https://perseusdl.github.io/treebank_data/', text: 'The AGLDT', key: 'agldt-trees' },
+        ]}
       />
-
-      <ListItem
-        title="The AGLDT"
-        id="agldt"
-        reverse
-        image={agldt}
-        alt="screenshot of the AGLDT"
-        link="https://perseusdl.github.io/treebank_data/"
-        linkText="View the AGLDT"
-      >
-        <p>
-          <em>
-            The Ancient Greek and Latin Dependency Treebank
-          </em>
-          (AGLDT) is the earliest treebank for Ancient Greek and Latin.
-          The project started at Tufts University in 2006 and is currently
-          developed and maintained at Leipzig University-Tufts University.
-          Data and documentation are freely available.
-          The current release is
-          {' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/PerseusDL/treebank_data/tree/master/v2.1">
-            v2.1
-          </a>
-          .
-        </p>
-      </ListItem>
-
 
       <ListItem
         title="Other Publications"

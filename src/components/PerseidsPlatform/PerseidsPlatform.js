@@ -29,7 +29,7 @@ const PerseidsPlatform = () => (
       <ListItem
         title="Facilitating Teamwork"
         id="teamwork"
-        text="Editors can set up communities and review boards so as to work in teams and review each other’s contributions, whether in classNameroom or research settings."
+        text="Editors can set up communities and review boards so as to work in teams and review each other’s contributions, whether in classroom or research settings."
         image={community}
         alt="community"
         reverse
