@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Hero from '../Hero';
 import ListItem from '../ListItem';
@@ -21,13 +22,29 @@ const DigitalEditions = () => (
       <ListItem
         title="Birds in Ancient Mythology"
         id="ancientbirds"
-        text="This project, which is still a work in progress, invites the public to engage with the fields of classics and ornithology via a series of short films based on D’Arcy Thompson’s Glossary of Greek Birds accompanied by digital content shared as Open Linked Data. The goal is that, through these products, the public will have an opportunity to explore the intersection of science and the humanities."
         reverse
         image={ancientbirds}
         alt="screenshot of Birds in Ancient Mythology"
         link="https://sites.tufts.edu/ancientbirds/"
         linkText="Learn more"
-      />
+      >
+        <p>
+          This project, which is still a work in progress, invites the public to engage with the
+          fields of classics and ornithology via a series of short films based on
+          {' '}
+          <a href="https://en.wikipedia.org/wiki/D%27Arcy_Wentworth_Thompson">
+            D&apos;Arcy Thompson&apos;s
+          </a>
+          {' '}
+          <em>
+            Glossary of Greek Birds
+          </em>
+          {' '}
+          accompanied by digital content shared as Open Linked Data. The goal is that, through these
+          products, the public will have an opportunity to explore the intersection of science and
+          the humanities.
+        </p>
+      </ListItem>
 
       <ListItem
         title="The Digital Milliet Project"
@@ -39,24 +56,29 @@ const DigitalEditions = () => (
         linkText="Browse the Digital Milliet"
       >
         <p>
-          Our goal with The Digital Milliet Project is to make ancient Greek and Latin texts
-          about painting accessible in an attractive and intuitive open-source interface.
-          Painting was an essential part of ancient art but most of the works have been
-          destroyed by the passing of time.
-          The Digital Milliet project revitalizes the sourcebook
+          The
           {' '}
           <em>
-            Textes grecs et latins relatifs à la peinture ancienne
+            Recueil des textes grecs et latins relatifs à la peinture ancienne
           </em>
           {' '}
-          by Paul Milliet, published in 1921 by Adolphe Reinach.
+          (&quot;Collection of Greek and Latin Texts Concerning Ancient Painting&quot;) was the
+          initiative of the 19th century French academic painter,
+          {' '}
+          <a href="https://fr.wikipedia.org/wiki/Paul_Milliet_(peintre)">
+            Paul Milliet
+          </a>
+          . Millet sponsored a book that would contain all surviving
+          texts about ancient painting and include translations and commentaries.
+          The Digital Milliet revitalizes Milliet&apos;s sourcebook in a digital format.
+          Our goal with the project is to make ancient Greek and Latin texts
+          about painting accessible to specialists and the public alike.
         </p>
       </ListItem>
 
       <ListItem
         title="Treebanking Collections"
         id="treebanking-publications"
-        text="Treebanks are morpho-syntactic commentaries on texts, sentence by sentence. Perseids allows students and scholars to build treebanks in an intuitive graphic interface while compiling the data in an XML document for analysis. Many of these treebanks have been gathered into collaborative and interactive publications."
         reverse
         image={treebank}
         alt="picture of treebank"
@@ -65,7 +87,19 @@ const DigitalEditions = () => (
           { link: 'https://perseids-publications.github.io/gorman-trees/', text: 'Treebanks by Vanessa and Bob Gorman', key: 'gorman-trees' },
           { link: 'https://perseusdl.github.io/treebank_data/', text: 'The AGLDT', key: 'agldt-trees' },
         ]}
-      />
+      >
+        <p>
+          Treebanks are morpho-syntactic commentaries on texts, made sentence by sentence.
+          {' '}
+          <Link to="/perseids-platform">
+            The Perseids Platform
+          </Link>
+          {' '}
+          allows students and scholars to build treebanks in an intuitive graphic interface
+          while compiling the data in an XML document for analysis. Many of these treebanks
+          have been gathered into collaborative and interactive publications.
+        </p>
+      </ListItem>
 
       <ListItem
         title="Other Publications"

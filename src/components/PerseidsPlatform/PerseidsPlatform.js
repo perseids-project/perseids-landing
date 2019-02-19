@@ -12,15 +12,31 @@ const PerseidsPlatform = () => (
   <React.Fragment>
     <Hero
       title="The Perseids Platform"
-      text="Perseids offers a free and open online environment to produce collaborative data-driven editions of ancient documents."
+      text="A free and open online environment for producing collaborative data-driven editions of ancient documents."
       background="columns"
     />
 
     <div className="container mb-4">
+
+      <div className="row pb-4 align-items-center border-bottom mb-4">
+        <div className="col-12">
+          <p>
+            The Perseids Platform is a web-based, fully audited, version-controlled editing
+            environment. It enables the collaborative editing of texts in a framework of rigorous
+            and transparent peer-review and credit mechanisms with strong editorial oversight.
+          </p>
+        </div>
+        <div className="col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-12">
+          <a className="btn btn-lg btn-block btn-secondary" href="https://sosol.perseids.org/sosol/signin" role="button">
+            Create account or log in »
+          </a>
+        </div>
+      </div>
+
       <ListItem
         title="Interacting with Ancient Documents"
         id="interacting"
-        text="Since ancient documents, particularly text-based ones, can be difficult to access for non-specialists, our mission is to make it possible for editors to augment ancient texts with layers of explanatory materials in the form of annotations, image markup, commentary, and interactive graphs."
+        text="Ancient documents, particularly text-based ones, can be difficult to access for non-specialists. The Perseids Platform makes it possible for editors to augment ancient texts with layers of explanatory materials in the form of annotations, image markup, commentary, and interactive graphs."
         image={treebank}
         alt="treebanking"
         hideImageSmall={false}
@@ -29,7 +45,7 @@ const PerseidsPlatform = () => (
       <ListItem
         title="Facilitating Teamwork"
         id="teamwork"
-        text="Editors can set up communities and review boards so as to work in teams and review each other’s contributions, whether in classroom or research settings."
+        text="The Perseids Platform allows editors to collaborate by setting up communities and review boards. Teams can use these features to create custom workflows, contribution guidelines, and review processes, both in the classroom and in research settings."
         image={community}
         alt="community"
         reverse
@@ -39,7 +55,7 @@ const PerseidsPlatform = () => (
       <ListItem
         title="Cross-disciplinary Research"
         id="cross-disciplinary"
-        text="The platform is language-independent and currently accommodates Latin, Greek, and many other languages of the ancient and pre-modern world. This diversity means that we are fundamentally committed to a cross-disciplinary approach, and we encourage users to integrate data from other fields to enrich Humanities projects."
+        text="We are fundamentally committed to a cross-disciplinary approach. The Perseids Platform is language-independent, currently accommodating Latin, Greek, and many other languages of the ancient and pre-modern world. Users are also encouraged to integrate data from other fields to enrich Humanities projects."
         image={manuscript}
         alt="manuscript"
         hideImageSmall={false}
@@ -48,7 +64,7 @@ const PerseidsPlatform = () => (
       <ListItem
         title="Open Data"
         id="open-data"
-        text="In order to support widespread data sharing, our core value is to put the data first, making sure that data produced through Perseids is compliant with community standards for open data, interoperability, and technology independence."
+        text="Our core value is to put the data first. All of the data produced through The Perseids Platform is compliant with community standards for open data, interoperability, and technology independence."
         image={sharing}
         alt="sharing"
         reverse
@@ -58,7 +74,7 @@ const PerseidsPlatform = () => (
 
 
       <div className="row pb-4">
-        <div className="col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-sm-12">
+        <div className="col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-12">
           <a className="btn btn-lg btn-block btn-secondary" href="https://sosol.perseids.org/sosol/signin" role="button">
             Create account or log in »
           </a>
