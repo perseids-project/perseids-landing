@@ -3,10 +3,10 @@ import React from 'react';
 import Hero from '../Hero';
 import ListItem from '../ListItem';
 
-import code from '../img/code.png';
-import demixer from '../img/demixer.png';
-import lexicon from '../img/lexicon.png';
-import morphsvc from '../img/morphsvc.png';
+import code from '../../img/code.png';
+import demixer from '../../img/demixer.png';
+import lexicon from '../../img/lexicon.png';
+import morphsvc from '../../img/morphsvc.png';
 
 const SoftwareLibraries = () => (
   <React.Fragment>

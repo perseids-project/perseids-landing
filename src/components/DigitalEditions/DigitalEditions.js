@@ -3,10 +3,10 @@ import React from 'react';
 import Hero from '../Hero';
 import ListItem from '../ListItem';
 
-import digmill from '../img/digmill.png';
-import treebank from '../img/treebank.png';
-import agldt from '../img/agldt.png';
-import bodin from '../img/bodin.png';
+import digmill from '../../img/digmill.png';
+import treebank from '../../img/treebank.png';
+import agldt from '../../img/agldt.png';
+import bodin from '../../img/bodin.png';
 
 const DigitalEditions = () => (
   <React.Fragment>
