@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "bc99fc333ae149098a8c",
-    "url": "/perseids-landing/static/css/main.b9db5773.chunk.css"
+    "revision": "81799d5dc6292297f958",
+    "url": "/perseids-landing/static/css/main.4cfbf127.chunk.css"
   },
   {
-    "revision": "bc99fc333ae149098a8c",
-    "url": "/perseids-landing/static/js/main.bc99fc33.chunk.js"
+    "revision": "81799d5dc6292297f958",
+    "url": "/perseids-landing/static/js/main.81799d5d.chunk.js"
   },
   {
-    "revision": "eafc7720a90ad7588a84",
-    "url": "/perseids-landing/static/css/1.9d519ea1.chunk.css"
+    "revision": "5b48d0b22eecb1ad877c",
+    "url": "/perseids-landing/static/css/1.3ac182d2.chunk.css"
   },
   {
-    "revision": "eafc7720a90ad7588a84",
-    "url": "/perseids-landing/static/js/1.eafc7720.chunk.js"
+    "revision": "5b48d0b22eecb1ad877c",
+    "url": "/perseids-landing/static/js/1.5b48d0b2.chunk.js"
   },
   {
     "revision": "1e1906433b6ce5883956",
@@ -22,10 +22,6 @@ self.__precacheManifest = [
   {
     "revision": "46ad201c4312c9efe35fd0ae0f20ce88",
     "url": "/perseids-landing/static/media/treebank.46ad201c.png"
-  },
-  {
-    "revision": "56ac5fbffa76917e52b34893febe263b",
-    "url": "/perseids-landing/static/media/imls.56ac5fbf.png"
   },
   {
     "revision": "5dc2d375fd156ada680a6af6d60e06f8",
@@ -68,6 +64,10 @@ self.__precacheManifest = [
     "url": "/perseids-landing/static/media/frqsc.1b552b64.png"
   },
   {
+    "revision": "56ac5fbffa76917e52b34893febe263b",
+    "url": "/perseids-landing/static/media/imls.56ac5fbf.png"
+  },
+  {
     "revision": "ccc1f79fc146793d40568e22e4ca2f27",
     "url": "/perseids-landing/static/media/kress.ccc1f79f.png"
   },
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/perseids-landing/static/media/lexicon.6bd6c910.png"
   },
   {
-    "revision": "6abf218e5b9ebee336be6e13eda22d6b",
+    "revision": "9e1d545c86bb5e0e94cd7731153aee49",
     "url": "/perseids-landing/index.html"
   }
 ];
