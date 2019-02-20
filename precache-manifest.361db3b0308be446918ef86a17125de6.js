@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "d815d7412efb08de44ec",
-    "url": "/perseids-landing/static/css/main.8c5d296b.chunk.css"
+    "revision": "bc99fc333ae149098a8c",
+    "url": "/perseids-landing/static/css/main.b9db5773.chunk.css"
   },
   {
-    "revision": "d815d7412efb08de44ec",
-    "url": "/perseids-landing/static/js/main.d815d741.chunk.js"
+    "revision": "bc99fc333ae149098a8c",
+    "url": "/perseids-landing/static/js/main.bc99fc33.chunk.js"
   },
   {
-    "revision": "55e11e668b2203f491d7",
-    "url": "/perseids-landing/static/css/1.43cc3ee5.chunk.css"
+    "revision": "eafc7720a90ad7588a84",
+    "url": "/perseids-landing/static/css/1.9d519ea1.chunk.css"
   },
   {
-    "revision": "55e11e668b2203f491d7",
-    "url": "/perseids-landing/static/js/1.55e11e66.chunk.js"
+    "revision": "eafc7720a90ad7588a84",
+    "url": "/perseids-landing/static/js/1.eafc7720.chunk.js"
   },
   {
     "revision": "1e1906433b6ce5883956",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/perseids-landing/static/media/code.56297882.png"
   },
   {
-    "revision": "6bd6c910c5beef1321eac4e8a4cfe77e",
-    "url": "/perseids-landing/static/media/lexicon.6bd6c910.png"
+    "revision": "452a4e93cb2b83e5284269a130ff25ec",
+    "url": "/perseids-landing/static/media/morphsvc.452a4e93.png"
   },
   {
     "revision": "1b552b641625003462d340f42f88d1a5",
@@ -100,15 +100,11 @@ self.__precacheManifest = [
     "url": "/perseids-landing/static/media/sharing.9abbf2d2.png"
   },
   {
-    "revision": "0c86748f91d8121ef05c5b27c7ef4d56",
-    "url": "/perseids-landing/static/media/demixer.0c86748f.png"
+    "revision": "6bd6c910c5beef1321eac4e8a4cfe77e",
+    "url": "/perseids-landing/static/media/lexicon.6bd6c910.png"
   },
   {
-    "revision": "452a4e93cb2b83e5284269a130ff25ec",
-    "url": "/perseids-landing/static/media/morphsvc.452a4e93.png"
-  },
-  {
-    "revision": "3d49652ca5ea8c84716bcb4282054172",
+    "revision": "6abf218e5b9ebee336be6e13eda22d6b",
     "url": "/perseids-landing/index.html"
   }
 ];
