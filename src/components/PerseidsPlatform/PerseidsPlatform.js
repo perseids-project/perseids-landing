@@ -18,7 +18,7 @@ const PerseidsPlatform = () => (
 
     <div className="container mb-4">
 
-      <div className="row pb-4 align-items-center border-bottom mb-4">
+      <div className="row">
         <div className="col-12">
           <p>
             The Perseids Platform is a web-based, fully audited, version-controlled editing
@@ -26,9 +26,16 @@ const PerseidsPlatform = () => (
             and transparent peer-review and credit mechanisms with strong editorial oversight.
           </p>
         </div>
-        <div className="col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-12">
-          <a className="btn btn-lg btn-block btn-secondary" href="https://sosol.perseids.org/sosol/signin" role="button">
+      </div>
+      <div className="row border-bottom pb-4 mb-4">
+        <div className="col-md-6 col-lg-4 offset-lg-2 col-12 pb-1 pb-md-0">
+          <a className="btn btn-lg btn-block btn-secondary" href="https://sosol.perseids.org/sosol/signin">
             Create account or log in »
+          </a>
+        </div>
+        <div className="col-md-6 col-lg-4 col-12">
+          <a className="btn btn-lg btn-block btn-primary" href="http://sites.tufts.edu/perseids/instructions/">
+            View instructions »
           </a>
         </div>
       </div>

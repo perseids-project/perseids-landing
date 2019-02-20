@@ -4,7 +4,6 @@ import Hero from '../Hero';
 import ListItem from '../ListItem';
 
 import code from '../../img/code.png';
-import demixer from '../../img/demixer.png';
 import lexicon from '../../img/lexicon.png';
 import morphsvc from '../../img/morphsvc.png';
 
@@ -18,29 +17,6 @@ const SoftwareLibraries = () => (
     />
 
     <div className="container">
-      <ListItem
-        title="Dictionaries"
-        id="lexica"
-        text="Perseids hosts several mobile-friendly online lexica. All the data is saved locally. This means that after loading the page a single time, you can use the lexicon without an internet connection."
-        reverse
-        image={lexicon}
-        alt="picture of a Greek-English dictionary"
-        links={[
-          { link: 'https://perseids-project.github.io/lsj-js/', text: 'LSJ Greek-English Lexicon', key: 'lsj' },
-          { link: 'https://perseids-project.github.io/woodhouse-js/', text: 'Woodhouse English-Greek Dictionary', key: 'woodhouse' },
-        ]}
-      />
-
-      <ListItem
-        title="Greek and Latin Demixer"
-        id="demixer"
-        text="The Greek and Latin Demixer is a web tool for processing texts that contain a mixture of Greek and Latin characters. This can sometimes happen when a text is processed with OCR software."
-        reverse
-        image={demixer}
-        alt="screenshot of Demixer"
-        link="https://perseids-project.github.io/greek-latin-demixer/"
-        linkText="Try out the Demixer"
-      />
 
       <ListItem
         title="Morphology Service"
@@ -64,6 +40,19 @@ const SoftwareLibraries = () => (
           .
         </p>
       </ListItem>
+
+      <ListItem
+        title="Dictionaries"
+        id="lexica"
+        text="Perseids hosts several mobile-friendly online lexica. All the data is saved locally. This means that after loading the page a single time, you can use the lexicon without an internet connection."
+        reverse
+        image={lexicon}
+        alt="picture of a Greek-English dictionary"
+        links={[
+          { link: 'https://perseids-project.github.io/lsj-js/', text: 'LSJ Greek-English Lexicon', key: 'lsj' },
+          { link: 'https://perseids-project.github.io/woodhouse-js/', text: 'Woodhouse English-Greek Dictionary', key: 'woodhouse' },
+        ]}
+      />
 
       <ListItem
         title="Other Repositories"
