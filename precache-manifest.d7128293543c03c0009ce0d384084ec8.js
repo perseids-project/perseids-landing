@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "7f3408f65de7c7031787",
-    "url": "/static/css/main.a08c4f54.chunk.css"
+    "revision": "54caf529dc35ad7d9d87",
+    "url": "/static/css/main.2dcb85f4.chunk.css"
   },
   {
-    "revision": "7f3408f65de7c7031787",
-    "url": "/static/js/main.7f3408f6.chunk.js"
+    "revision": "54caf529dc35ad7d9d87",
+    "url": "/static/js/main.54caf529.chunk.js"
   },
   {
-    "revision": "eafc7720a90ad7588a84",
-    "url": "/static/css/1.9d519ea1.chunk.css"
+    "revision": "5b48d0b22eecb1ad877c",
+    "url": "/static/css/1.3ac182d2.chunk.css"
   },
   {
-    "revision": "eafc7720a90ad7588a84",
-    "url": "/static/js/1.eafc7720.chunk.js"
+    "revision": "5b48d0b22eecb1ad877c",
+    "url": "/static/js/1.5b48d0b2.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -22,10 +22,6 @@ self.__precacheManifest = [
   {
     "revision": "46ad201c4312c9efe35fd0ae0f20ce88",
     "url": "/static/media/treebank.46ad201c.png"
-  },
-  {
-    "revision": "56ac5fbffa76917e52b34893febe263b",
-    "url": "/static/media/imls.56ac5fbf.png"
   },
   {
     "revision": "5dc2d375fd156ada680a6af6d60e06f8",
@@ -68,6 +64,10 @@ self.__precacheManifest = [
     "url": "/static/media/frqsc.1b552b64.png"
   },
   {
+    "revision": "56ac5fbffa76917e52b34893febe263b",
+    "url": "/static/media/imls.56ac5fbf.png"
+  },
+  {
     "revision": "ccc1f79fc146793d40568e22e4ca2f27",
     "url": "/static/media/kress.ccc1f79f.png"
   },
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/static/media/lexicon.6bd6c910.png"
   },
   {
-    "revision": "92fa6c43c6b52b6348a0108989293000",
+    "revision": "2b0bb435a5a9599720d03d8f7f5c7ccb",
     "url": "/index.html"
   }
 ];
