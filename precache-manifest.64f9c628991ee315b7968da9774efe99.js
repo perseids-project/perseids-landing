@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "2a2f8931970578adac78",
-    "url": "/static/css/main.472d5e7b.chunk.css"
+    "revision": "7f3408f65de7c7031787",
+    "url": "/static/css/main.a08c4f54.chunk.css"
   },
   {
-    "revision": "2a2f8931970578adac78",
-    "url": "/static/js/main.2a2f8931.chunk.js"
+    "revision": "7f3408f65de7c7031787",
+    "url": "/static/js/main.7f3408f6.chunk.js"
   },
   {
-    "revision": "55e11e668b2203f491d7",
-    "url": "/static/css/1.43cc3ee5.chunk.css"
+    "revision": "eafc7720a90ad7588a84",
+    "url": "/static/css/1.9d519ea1.chunk.css"
   },
   {
-    "revision": "55e11e668b2203f491d7",
-    "url": "/static/js/1.55e11e66.chunk.js"
+    "revision": "eafc7720a90ad7588a84",
+    "url": "/static/js/1.eafc7720.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/static/media/code.56297882.png"
   },
   {
-    "revision": "6bd6c910c5beef1321eac4e8a4cfe77e",
-    "url": "/static/media/lexicon.6bd6c910.png"
+    "revision": "452a4e93cb2b83e5284269a130ff25ec",
+    "url": "/static/media/morphsvc.452a4e93.png"
   },
   {
     "revision": "1b552b641625003462d340f42f88d1a5",
@@ -100,15 +100,11 @@ self.__precacheManifest = [
     "url": "/static/media/sharing.9abbf2d2.png"
   },
   {
-    "revision": "0c86748f91d8121ef05c5b27c7ef4d56",
-    "url": "/static/media/demixer.0c86748f.png"
+    "revision": "6bd6c910c5beef1321eac4e8a4cfe77e",
+    "url": "/static/media/lexicon.6bd6c910.png"
   },
   {
-    "revision": "452a4e93cb2b83e5284269a130ff25ec",
-    "url": "/static/media/morphsvc.452a4e93.png"
-  },
-  {
-    "revision": "0fa90e1694aabd9f6582fff4abc259ce",
+    "revision": "92fa6c43c6b52b6348a0108989293000",
     "url": "/index.html"
   }
 ];
