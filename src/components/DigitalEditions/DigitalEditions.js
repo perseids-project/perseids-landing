@@ -8,6 +8,7 @@ import ancientbirds from '../../img/ancientbirds.png';
 import digmill from '../../img/digmill.png';
 import treebank from '../../img/treebank.png';
 import bodin from '../../img/bodin.png';
+import demixer from '../../img/demixer.png';
 
 const DigitalEditions = () => (
   <React.Fragment>
@@ -43,6 +44,24 @@ const DigitalEditions = () => (
           accompanied by digital content shared as Open Linked Data. The goal is that, through these
           products, the public will have an opportunity to explore the intersection of science and
           the humanities.
+        </p>
+      </ListItem>
+
+      <ListItem
+        title="Editing Tools"
+        id="editing"
+        reverse
+        image={demixer}
+        alt="screenshot of Greek-Latin Demixer"
+        links={[
+          { link: 'https://apps.perseids.org/beta-code/', text: 'Beta Code Converter', key: 'beta-code' },
+          { link: 'https://apps.perseids.org/demixer/', text: 'Greek-Latin demixer', key: 'demixer' },
+        ]}
+      >
+        <p>
+          The Perseids Project provides several standalone tools for working with and
+          editing ancient texts.
+          {' '}
         </p>
       </ListItem>
 
