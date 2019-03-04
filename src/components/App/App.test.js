@@ -17,9 +17,9 @@ it('renders title', () => {
 it('renders subsections and navbar', () => {
   const { queryAllByText } = render(<App />);
 
-  expect(queryAllByText(/Perseids Platform/)).toHaveLength(3);
-  expect(queryAllByText(/Digital Editions/)).toHaveLength(2);
-  expect(queryAllByText(/Libraries and Tools/)).toHaveLength(2);
+  expect(queryAllByText(/Perseids Platform/)).toHaveLength(4);
+  expect(queryAllByText(/Digital Editions/)).toHaveLength(3);
+  expect(queryAllByText(/Libraries and Tools/)).toHaveLength(3);
 });
 
 it('renders sponsors', () => {
