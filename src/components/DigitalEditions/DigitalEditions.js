@@ -5,9 +5,9 @@ import Hero from '../Hero';
 import ListItem from '../ListItem';
 
 import ancientbirds from '../../img/ancientbirds.png';
+import bodin from '../../img/bodin.png';
 import digmill from '../../img/digmill.png';
 import treebank from '../../img/treebank.png';
-import bodin from '../../img/bodin.png';
 
 const DigitalEditions = () => (
   <React.Fragment>
