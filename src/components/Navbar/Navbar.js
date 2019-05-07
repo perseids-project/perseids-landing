@@ -1,34 +1,36 @@
 import React, { Component } from 'react';
 import { NavbarToggler, Collapse } from 'reactstrap';
 import { PerseidsHeader } from 'perseids-react-components';
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-i18n';
+
+import I18n from '../I18n';
 
 const renderCollapse = collapsed => (
   <Collapse isOpen={!collapsed} navbar>
     <ul className="navbar-nav mr-auto">
       <li className="nav-item">
         <NavLink className="nav-link" to="/perseids-platform">
-          Perseids Platform
+          <I18n t="header.platform" />
         </NavLink>
       </li>
       <li className="nav-item">
         <NavLink className="nav-link" to="/digital-editions">
-          Digital Editions
+          <I18n t="header.editions" />
         </NavLink>
       </li>
       <li className="nav-item">
         <NavLink className="nav-link" to="/libraries-tools">
-          Libraries and Tools
+          <I18n t="header.tools" />
         </NavLink>
       </li>
       <li className="nav-item">
         <NavLink className="nav-link" to="/contact">
-          Contact Us
+          <I18n t="header.contact" />
         </NavLink>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="https://sites.tufts.edu/perseids/">
-          Blog
+          <I18n t="header.blog" />
         </a>
       </li>
     </ul>
@@ -36,7 +38,7 @@ const renderCollapse = collapsed => (
     <ul className="navbar-nav my-2 my-lg-02">
       <li className="nav-item">
         <a className="nav-link" href="https://sosol.perseids.org/sosol/signin">
-          Log in
+          <I18n t="header.login" />
         </a>
       </li>
     </ul>

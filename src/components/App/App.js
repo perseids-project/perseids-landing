@@ -13,18 +13,20 @@ import Contact from '../Contact';
 
 import ImagePreload from '../ImagePreload';
 
+const base = '/:locale(en|fr)?';
+
 const App = () => (
   <Router basename={process.env.PUBLIC_URL}>
     <React.Fragment>
-      <Navbar />
+      <Route path={base} component={Navbar} />
 
       <main role="main">
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/digital-editions" component={DigitalEditions} />
-          <Route exact path="/libraries-tools" component={SoftwareLibraries} />
-          <Route exact path="/perseids-platform" component={PerseidsPlatform} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path={base} component={Home} />
+          <Route exact path={`${base}/digital-editions`} component={DigitalEditions} />
+          <Route exact path={`${base}/libraries-tools`} component={SoftwareLibraries} />
+          <Route exact path={`${base}/perseids-platform`} component={PerseidsPlatform} />
+          <Route exact path={`${base}/contact`} component={Contact} />
           <Route component={NotFound} />
         </Switch>
       </main>

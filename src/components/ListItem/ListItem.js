@@ -1,10 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import I18n from '../I18n';
+
 const renderLink = (link, linkText, key) => (
   <p key={key}>
     <a className="btn btn-secondary" href={link} role="button">
-      {`${linkText || link} »`}
+      {linkText ? <I18n t={linkText} /> : link}
+      {' '}
+      »
     </a>
   </p>
 );
@@ -13,7 +17,7 @@ const renderLinks = links => links.map(({ link, text, key }) => renderLink(link,
 
 const renderText = text => (
   <p>
-    {text}
+    <I18n t={text} />
   </p>
 );
 
@@ -40,7 +44,7 @@ const ListItem = ({
     <div className={`row pb-4 align-items-center ${rowBorder}`} id={id}>
       <div className={`col-md-6 ${textOrder}`}>
         <h2>
-          {title}
+          <I18n t={title} />
         </h2>
         {text && renderText(text)}
         {children}

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import I18n from '../../I18n';
+
 import frqsc from '../../../img/sponsor/frqsc.png';
 import imls from '../../../img/sponsor/imls.png';
 import kress from '../../../img/sponsor/kress.png';
@@ -11,7 +13,7 @@ const Sponsors = () => (
   <footer className="footer">
     <div className="container mt-2">
       <p className="text-center mb-3">
-        The Perseids Project would not be possible without the support of:
+        <I18n t="footer.support" />
       </p>
       <div className="row">
         <div className="col-md-4">

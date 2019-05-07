@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { MemoryRouter } from 'react-router-dom';
 
 import ListItem from './ListItem';
 
@@ -14,6 +15,11 @@ it('renders without crashing', () => {
     image: treebank,
     alt: 'treebank',
   };
+  const component = (
+    <MemoryRouter>
+      <ListItem {...attributes} />
+    </MemoryRouter>
+  );
 
-  ReactDOM.render(<ListItem {...attributes} />, div);
+  ReactDOM.render(component, div);
 });

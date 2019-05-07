@@ -1,19 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-i18n';
+
+import I18n from '../I18n';
 
 const renderLink = (link, to, linkText) => {
   if (link) {
     return (
       <a className="btn btn-secondary" href={link} role="button">
-        {`${linkText} »`}
+        <I18n t={linkText} />
+        {' '}
+        »
       </a>
     );
   }
 
   return (
     <Link className="btn btn-secondary mr-2" to={to} role="button">
-      {`${linkText} »`}
+      <I18n t={linkText} />
+      {' '}
+      »
     </Link>
   );
 };
@@ -32,10 +38,10 @@ const ListItemInline = ({
   return (
     <div className={`col-md-4 pb-2 ${rowBorder}`} id={id}>
       <h2>
-        {title}
+        <I18n t={title} />
       </h2>
       <p>
-        {text}
+        <I18n t={text} />
       </p>
       <p>
         {renderLink(link, to, linkText)}
