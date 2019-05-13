@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { NavbarToggler, Collapse } from 'reactstrap';
 import { PerseidsHeader } from 'perseids-react-components';
-import { NavLink } from 'react-router-i18n';
+import { Link, NavLink } from 'react-router-i18n';
 
 import I18n from '../I18n';
 
@@ -60,7 +60,7 @@ class Navbar extends Component {
     return (
       <React.Fragment>
 
-        <PerseidsHeader>
+        <PerseidsHeader component={Link} props={{ to: '/' }}>
           <NavbarToggler onClick={this.toggleNavbar} aria-label="navigation menu" />
 
           {renderCollapse(collapsed)}

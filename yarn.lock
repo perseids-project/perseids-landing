@@ -7611,12 +7611,13 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
-perseids-react-components@^0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/perseids-react-components/-/perseids-react-components-0.0.10.tgz#c2597d275eb103a2aaf72462593371911b64fd4d"
-  integrity sha512-Bs+LcGm13fRyoRlWMN7At/SOoGsOfRkR68U6lGDKVmWfFrRVEA19h55sy41x7xOlOqWq83AlTxfyBRD6ISKoVw==
+perseids-react-components@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/perseids-react-components/-/perseids-react-components-0.1.0.tgz#c5151ba6f14cdaa1bde71e4089731f1017cfece8"
+  integrity sha512-fi8SEMvfkcppriRt4g3VcUp6rTWQOgfQl4t1dqkfx4ZkT5lJkPFtsMIxENGyf+RCJNbeYn5KC/F2bcXT+K/eOA==
   dependencies:
     octicons "^8.1.3"
+    prop-types "^15.6.2"
 
 pidtree@^0.3.0:
   version "0.3.0"
