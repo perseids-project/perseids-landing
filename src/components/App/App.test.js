@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, fireEvent } from 'react-testing-library';
+import { render, fireEvent } from '@testing-library/react';
 
 import App from './App';
 
@@ -17,9 +17,9 @@ it('renders title', () => {
 it('renders subsections and navbar', () => {
   const { queryAllByText } = render(<App />);
 
-  expect(queryAllByText(/Perseids Platform/)).toHaveLength(4);
-  expect(queryAllByText(/Digital Editions/)).toHaveLength(3);
-  expect(queryAllByText(/Libraries and Tools/)).toHaveLength(3);
+  expect(queryAllByText(/Perseids Platform/)).toHaveLength(3);
+  expect(queryAllByText(/Digital Editions/)).toHaveLength(2);
+  expect(queryAllByText(/Libraries and Tools/)).toHaveLength(2);
 });
 
 it('renders sponsors', () => {
@@ -36,24 +36,25 @@ it('renders social media', () => {
 
 describe('navbar navigation', () => {
   it('goes to the perseids platform', () => {
-    const { getByText } = render(<App />);
+    const { getByText, getAllByText } = render(<App />);
 
     expect(window.location.pathname).toEqual('/');
 
-    fireEvent.click(getByText('Perseids Platform'));
+    fireEvent.click(getAllByText('Perseids Platform')[0]);
 
     expect(window.location.pathname).toEqual('/perseids-platform');
     expect(getByText('The Perseids Platform')).toBeInTheDocument();
   });
 
   it('goes to the digital editions', () => {
-    const { getByText } = render(<App />);
+    const { getAllByText } = render(<App />);
 
     expect(window.location.pathname).toEqual('/perseids-platform');
 
-    fireEvent.click(getByText('Digital Editions'));
+    fireEvent.click(getAllByText('Digital Editions')[0]);
 
     expect(window.location.pathname).toEqual('/digital-editions');
-    expect(getByText('Digital Editions')).toBeInTheDocument();
+    expect(getAllByText('Digital Editions')[0]).toBeInTheDocument();
+    expect(getAllByText('Digital Editions')[1]).toBeInTheDocument();
   });
 });

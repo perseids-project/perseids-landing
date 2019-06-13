@@ -204,6 +204,10 @@ const translations = {
         link: 'Send a Message',
       },
     },
+    notFound: {
+      title: '404 Page Not Found',
+      text: "Looks like you've followed a broken link or entered a URL that doesn't exist on this site.",
+    },
     header: {
       platform: 'Perseids Platform',
       editions: 'Digital Editions',
