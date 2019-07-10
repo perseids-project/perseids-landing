@@ -3,6 +3,7 @@ import { NavbarToggler, Collapse } from 'reactstrap';
 import { PerseidsHeader } from 'perseids-react-components';
 import { Link, NavLink } from 'react-router-i18n';
 
+import ServerOnly from '../ServerOnly';
 import I18n from '../I18n';
 
 const renderCollapse = collapsed => (
@@ -66,11 +67,11 @@ class Navbar extends Component {
           {renderCollapse(collapsed)}
         </PerseidsHeader>
 
-        <noscript>
-          <div className="container-fluid bg-light d-md-none noscript-fake-navbar">
+        <ServerOnly>
+          <div className="container-fluid bg-light d-md-none serveronly-fake-navbar">
             {renderCollapse(false)}
           </div>
-        </noscript>
+        </ServerOnly>
 
       </React.Fragment>
     );
