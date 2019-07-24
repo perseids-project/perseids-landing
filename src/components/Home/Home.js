@@ -4,7 +4,7 @@ import Hero from '../Hero';
 import ListItemInline from '../ListItemInline';
 
 const Home = () => (
-  <React.Fragment>
+  <>
 
     <Hero
       title="home.hero.title"
@@ -48,7 +48,7 @@ const Home = () => (
 
     <hr />
 
-  </React.Fragment>
+  </>
 );
 
 export default Home;

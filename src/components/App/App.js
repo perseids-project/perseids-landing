@@ -17,7 +17,7 @@ const base = '/:locale(en|fr)?';
 
 const App = () => (
   <Router basename={process.env.PUBLIC_URL}>
-    <React.Fragment>
+    <>
       <Route path={base} component={Navbar} />
 
       <main role="main">
@@ -33,7 +33,7 @@ const App = () => (
 
       <Footer />
       <ImagePreload />
-    </React.Fragment>
+    </>
   </Router>
 );
 

@@ -59,8 +59,7 @@ class Navbar extends Component {
     const { collapsed } = this.state;
 
     return (
-      <React.Fragment>
-
+      <>
         <PerseidsHeader component={Link} props={{ to: '/' }}>
           <NavbarToggler onClick={this.toggleNavbar} aria-label="navigation menu" />
 
@@ -72,8 +71,7 @@ class Navbar extends Component {
             {renderCollapse(false)}
           </div>
         </ServerOnly>
-
-      </React.Fragment>
+      </>
     );
   }
 }

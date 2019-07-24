@@ -11,7 +11,7 @@ import manuscript from '../../img/manuscript.png';
 import sharing from '../../img/sharing.png';
 
 const PerseidsPlatform = () => (
-  <React.Fragment>
+  <>
     <Hero
       title="platform.hero.title"
       text="platform.hero.text"
@@ -97,7 +97,7 @@ const PerseidsPlatform = () => (
 
     <hr />
 
-  </React.Fragment>
+  </>
 );
 
 export default PerseidsPlatform;

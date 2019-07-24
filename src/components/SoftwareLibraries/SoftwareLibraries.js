@@ -11,8 +11,7 @@ import lexicon from '../../img/lexicon.png';
 import morphsvc from '../../img/morphsvc.png';
 
 const SoftwareLibraries = () => (
-  <React.Fragment>
-
+  <>
     <Hero
       title="libraries.hero.title"
       text="libraries.hero.text"
@@ -70,7 +69,7 @@ const SoftwareLibraries = () => (
         alt="screenshot of code"
         hasSeparator={false}
       >
-        <React.Fragment>
+        <>
           <p>
             <I18n t="libraries.other.source" />
           </p>
@@ -91,13 +90,13 @@ const SoftwareLibraries = () => (
               </a>
             </li>
           </ul>
-        </React.Fragment>
+        </>
       </ListItem>
     </div>
 
     <hr />
 
-  </React.Fragment>
+  </>
 );
 
 export default SoftwareLibraries;

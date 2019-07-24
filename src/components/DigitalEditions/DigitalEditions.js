@@ -11,7 +11,7 @@ import digmill from '../../img/digmill.png';
 import treebank from '../../img/treebank.png';
 
 const DigitalEditions = () => (
-  <React.Fragment>
+  <>
     <Hero
       title="editions.hero.title"
       text="editions.hero.text"
@@ -64,7 +64,7 @@ const DigitalEditions = () => (
         alt="screenshot of the trilingual Bodin alignment"
         hasSeparator={false}
       >
-        <React.Fragment>
+        <>
           <p>
             <I18n t="editions.other.explore" />
           </p>
@@ -100,13 +100,13 @@ const DigitalEditions = () => (
               </a>
             </li>
           </ul>
-        </React.Fragment>
+        </>
       </ListItem>
     </div>
 
     <hr />
 
-  </React.Fragment>
+  </>
 );
 
 export default DigitalEditions;

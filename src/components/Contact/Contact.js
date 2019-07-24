@@ -4,7 +4,7 @@ import Hero from '../Hero';
 import ListItemInline from '../ListItemInline';
 
 const Contact = () => (
-  <React.Fragment>
+  <>
 
     <Hero
       title="contact.hero.title"
@@ -48,7 +48,7 @@ const Contact = () => (
 
     <hr />
 
-  </React.Fragment>
+  </>
 );
 
 export default Contact;
