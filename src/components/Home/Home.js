@@ -20,7 +20,7 @@ const Home = () => (
           title="home.platform.title"
           text="home.platform.text"
           linkText="home.platform.link"
-          to="perseids-platform"
+          to="/perseids-platform"
         />
 
         <hr className="d-md-none" />
@@ -30,7 +30,7 @@ const Home = () => (
           title="home.editions.title"
           text="home.editions.text"
           linkText="home.editions.link"
-          to="digital-editions"
+          to="/digital-editions"
         />
 
         <hr className="d-md-none" />
@@ -40,7 +40,7 @@ const Home = () => (
           title="home.tools.title"
           text="home.tools.text"
           linkText="home.tools.link"
-          to="libraries-tools"
+          to="/libraries-tools"
           hasSeparator={false}
         />
       </div>

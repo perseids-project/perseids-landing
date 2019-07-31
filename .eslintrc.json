@@ -23,6 +23,14 @@
       "globals": {
         "window": true
       }
+    },
+    {
+      "files": [
+        "src/components/I18n/I18n.js"
+      ],
+      "rules": {
+        "quotes": 0
+      }
     }
   ]
 }
