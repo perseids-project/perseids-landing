@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Hero from '../Hero';
 import ListItemInline from '../ListItemInline';
@@ -45,6 +46,8 @@ const Home = () => (
         />
       </div>
     </div>
+
+    <Link className="d-none" to="/fr">react-snap</Link>
 
     <hr />
 
