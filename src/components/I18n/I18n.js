@@ -211,6 +211,8 @@ const translations = {
       contact: "Contact Us",
       blog: "Blog",
       login: "Log in",
+      language: "Français",
+      abbreviation: "FR",
     },
     footer: {
       support: "The Perseids Project would not be possible without the support of:",
@@ -430,6 +432,8 @@ const translations = {
       contact: "Pour nous joindre",
       blog: "Blogue",
       login: "S'identifier",
+      language: "English",
+      abbreviation: "EN",
     },
     footer: {
       support: "Le projet Perseids ne serait pas possible sans le support des organisations suivantes:",

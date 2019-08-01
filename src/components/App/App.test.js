@@ -57,4 +57,28 @@ describe('navbar navigation', () => {
     expect(getAllByText('Digital Editions')[0]).toBeInTheDocument();
     expect(getAllByText('Digital Editions')[1]).toBeInTheDocument();
   });
+
+  it('renders the page in French', () => {
+    const { getAllByText } = render(<App />);
+
+    expect(window.location.pathname).toEqual('/digital-editions');
+
+    fireEvent.click(getAllByText('FR')[0]);
+
+    expect(window.location.pathname).toEqual('/fr/digital-editions');
+    expect(getAllByText('Éditions numériques')[0]).toBeInTheDocument();
+    expect(getAllByText('Éditions numériques')[1]).toBeInTheDocument();
+  });
+
+  it('renders links in French', () => {
+    const { getAllByText } = render(<App />);
+
+    expect(window.location.pathname).toEqual('/fr/digital-editions');
+
+    fireEvent.click(getAllByText('La plateforme Perseids')[0]);
+
+    expect(window.location.pathname).toEqual('/fr/perseids-platform');
+    expect(getAllByText('La plateforme Perseids')[0]).toBeInTheDocument();
+    expect(getAllByText('La plateforme Perseids')[1]).toBeInTheDocument();
+  });
 });
