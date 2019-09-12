@@ -23,7 +23,7 @@ const images = {
 // before the hero image is updated.
 const ImagePreload = () => (
   <div className="d-none" aria-hidden>
-    {Object.keys(images).map(key => <img src={images[key]} key={key} alt="" />)}
+    {Object.keys(images).map((key) => <img src={images[key]} key={key} alt="" />)}
   </div>
 );
 

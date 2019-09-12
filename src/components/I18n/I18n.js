@@ -346,7 +346,7 @@ const translations = {
           </>
         ),
         harrington: "J. J. M. Harrington Arbres syntaxiques publiés",
-        gorman: "Arbres syntaxiques par Vanessa et Bob Gorman",
+        gorman: "Arbres syntaxiques par Vanessa Gorman",
         agldt: "Les balises AGLDT",
       },
       other: {

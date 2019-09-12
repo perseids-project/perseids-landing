@@ -68,12 +68,16 @@ const renderCollapse = (collapsed, pathname, locale) => (
 );
 
 class Navbar extends Component {
-  state = {
-    collapsed: true,
+  constructor(props) {
+    super(props);
+
+    this.state = { collapsed: true };
+
+    this.toggleNavbar = this.toggleNavbar.bind(this);
   }
 
-  toggleNavbar = () => {
-    this.setState(prevState => ({ collapsed: !prevState.collapsed }));
+  toggleNavbar() {
+    this.setState(({ collapsed }) => ({ collapsed: !collapsed }));
   }
 
   render() {

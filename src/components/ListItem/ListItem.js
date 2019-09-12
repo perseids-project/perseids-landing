@@ -13,9 +13,9 @@ const renderLink = (link, linkText, key) => (
   </p>
 );
 
-const renderLinks = links => links.map(({ link, text, key }) => renderLink(link, text, key));
+const renderLinks = (links) => links.map(({ link, text, key }) => renderLink(link, text, key));
 
-const renderText = text => (
+const renderText = (text) => (
   <p>
     <I18n t={text} />
   </p>
