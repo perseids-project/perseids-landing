@@ -125,7 +125,7 @@ const translations = {
           </>
         ),
         harrington: "J. M. Harrington Published Trees",
-        gorman: "Treebanks by Vanessa and Bob Gorman",
+        gorman: "Treebanks by Vanessa Gorman",
         agldt: "The AGLDT",
       },
       other: {
