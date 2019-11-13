@@ -188,10 +188,10 @@ const translations = {
         title: "Contact the Perseids Team",
         text: "If you have a suggestion, want to report a bug, are interested in collaborating, or would like to reach out for any other reason, please use one of the links below or email us at perseids@tufts.edu.",
       },
-      feature: {
-        title: "Feature Requests",
-        text: "If you have a suggestion or a request for some new functionality, please click the link below and fill out a short questionnaire. We will get back to you as soon as we can.",
-        link: "Make a Request",
+      donate: {
+        title: "Make a donation",
+        text: "Help support the Perseids Project by making a donation online. Your donation is tax-deductible to the extent provided by law. Donations are considered charitable contributions to the Trustees of Tufts College.",
+        link: "Donate",
       },
       bug: {
         title: "Issues and Bugs",
@@ -201,7 +201,7 @@ const translations = {
       other: {
         title: "Other Comments",
         text: "For any other question, comment, idea, potential collaboration, click the link below and fill out the form to send us a message.",
-        link: "Send a Message",
+        link: "Send a message",
       },
     },
     header: {
@@ -409,10 +409,10 @@ const translations = {
         title: "Joindre l'équipe Perseids",
         text: "Si vous avez une suggestion, si vous voulez signaler un bogue, ou si vous voulez nous contacter pour toute autre raison, veuillez utiliser l'un des liens ci-dessous ou nous écrire à perseids@tufts.edu.",
       },
-      feature: {
-        title: "Requête de fonctionnalité",
-        text: "Si vous avez une suggestion ou une requête pour une nouvelle fonctionnalité, veuillez cliquer sur le lien ci-dessous et remplir un bref questionnaire. Nous vous répondrons aussitôt que possible.",
-        link: "Faire une requête",
+      donate: {
+        title: "Faire un don",
+        text: "Vous pouvez contribuer au soutien du projet Perseids en faisant un don en ligne. Votre don est déductible d'impôt dans la limite prévue par la loi et considéré comme un don de charité aux fiduciaires de l'université Tufts (Trustees of Tufts College).",
+        link: "Donner",
       },
       bug: {
         title: "Problèmes et bogues",

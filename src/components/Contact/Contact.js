@@ -16,11 +16,11 @@ const Contact = () => (
       <div className="row">
 
         <ListItemInline
-          id="feature-request"
-          title="contact.feature.title"
-          text="contact.feature.text"
-          linkText="contact.feature.link"
-          link="https://docs.google.com/forms/d/e/1FAIpQLSfbn8aI2MRBI9DAHK83KKQFKWnnmSat0HGA9grRyn35YLRR1g/viewform"
+          id="donate"
+          title="contact.donate.title"
+          text="contact.donate.text"
+          linkText="contact.donate.link"
+          link="https://tuftsgiving.org/giving-form.html?id=7&showarea=AR001037&areaid=601&recurring=true"
         />
 
         <hr className="d-md-none" />
