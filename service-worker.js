@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/perseids-landing/precache-manifest.f89c4370cf9ee28064f2fb5509eba111.js"
+  "/perseids-landing/precache-manifest.59981c63a820917845b9316d106167dc.js"
 );
 
 self.addEventListener('message', (event) => {
