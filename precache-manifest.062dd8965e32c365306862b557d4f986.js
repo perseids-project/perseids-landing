@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50463d85b2fcf9eae42528dada391e5a",
+    "revision": "e5250d3f26b6d5641fd6e7b589220c1a",
     "url": "/perseids-landing/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/perseids-landing/static/css/2.5e77f3f6.chunk.css"
   },
   {
-    "revision": "a1c751388bf954782393",
+    "revision": "ce718e11d6b159fe93fc",
     "url": "/perseids-landing/static/css/main.d7b5b1f0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/perseids-landing/static/js/2.5513909b.chunk.js"
   },
   {
-    "revision": "a1c751388bf954782393",
-    "url": "/perseids-landing/static/js/main.9bd99f90.chunk.js"
+    "revision": "ce718e11d6b159fe93fc",
+    "url": "/perseids-landing/static/js/main.85c3a27a.chunk.js"
   },
   {
     "revision": "981eabe8afee0ebfdc08",
