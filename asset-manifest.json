@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/perseids-landing/static/css/main.f2cb45a1.chunk.css",
-    "main.js": "/perseids-landing/static/js/main.965b3739.chunk.js",
-    "main.js.map": "/perseids-landing/static/js/main.965b3739.chunk.js.map",
-    "runtime-main.js": "/perseids-landing/static/js/runtime-main.bd2a9599.js",
-    "runtime-main.js.map": "/perseids-landing/static/js/runtime-main.bd2a9599.js.map",
+    "main.css": "/perseids-landing/static/css/main.27cf8886.chunk.css",
+    "main.js": "/perseids-landing/static/js/main.77210b39.chunk.js",
+    "main.js.map": "/perseids-landing/static/js/main.77210b39.chunk.js.map",
+    "runtime-main.js": "/perseids-landing/static/js/runtime-main.767db1a0.js",
+    "runtime-main.js.map": "/perseids-landing/static/js/runtime-main.767db1a0.js.map",
     "static/css/2.5e77f3f6.chunk.css": "/perseids-landing/static/css/2.5e77f3f6.chunk.css",
-    "static/js/2.e398fcca.chunk.js": "/perseids-landing/static/js/2.e398fcca.chunk.js",
-    "static/js/2.e398fcca.chunk.js.map": "/perseids-landing/static/js/2.e398fcca.chunk.js.map",
+    "static/js/2.33125ae6.chunk.js": "/perseids-landing/static/js/2.33125ae6.chunk.js",
+    "static/js/2.33125ae6.chunk.js.map": "/perseids-landing/static/js/2.33125ae6.chunk.js.map",
     "index.html": "/perseids-landing/index.html",
-    "precache-manifest.54560bbee07c465f9b169fa516fbd19f.js": "/perseids-landing/precache-manifest.54560bbee07c465f9b169fa516fbd19f.js",
+    "precache-manifest.06fb52dbc57a3ad1c624354d4cada7f9.js": "/perseids-landing/precache-manifest.06fb52dbc57a3ad1c624354d4cada7f9.js",
     "service-worker.js": "/perseids-landing/service-worker.js",
     "static/css/2.5e77f3f6.chunk.css.map": "/perseids-landing/static/css/2.5e77f3f6.chunk.css.map",
-    "static/css/main.f2cb45a1.chunk.css.map": "/perseids-landing/static/css/main.f2cb45a1.chunk.css.map",
-    "static/js/2.e398fcca.chunk.js.LICENSE": "/perseids-landing/static/js/2.e398fcca.chunk.js.LICENSE",
+    "static/css/main.27cf8886.chunk.css.map": "/perseids-landing/static/css/main.27cf8886.chunk.css.map",
+    "static/js/2.33125ae6.chunk.js.LICENSE": "/perseids-landing/static/js/2.33125ae6.chunk.js.LICENSE",
     "static/media/ancientbirds.png": "/perseids-landing/static/media/ancientbirds.71ae50b2.png",
     "static/media/bodin.png": "/perseids-landing/static/media/bodin.c49db818.png",
     "static/media/code.png": "/perseids-landing/static/media/code.56297882.png",
@@ -33,10 +33,10 @@
     "static/media/tufts.png": "/perseids-landing/static/media/tufts.bd084aae.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bd2a9599.js",
+    "static/js/runtime-main.767db1a0.js",
     "static/css/2.5e77f3f6.chunk.css",
-    "static/js/2.e398fcca.chunk.js",
-    "static/css/main.f2cb45a1.chunk.css",
-    "static/js/main.965b3739.chunk.js"
+    "static/js/2.33125ae6.chunk.js",
+    "static/css/main.27cf8886.chunk.css",
+    "static/js/main.77210b39.chunk.js"
   ]
 }
