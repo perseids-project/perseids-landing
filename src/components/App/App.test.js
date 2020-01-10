@@ -31,7 +31,7 @@ it('renders sponsors', () => {
 it('renders social media', () => {
   const { getByText } = render(<App />);
 
-  expect(getByText('© The Perseids Project 2019')).toBeInTheDocument();
+  expect(getByText('© The Perseids Project 2020')).toBeInTheDocument();
 });
 
 describe('navbar navigation', () => {
