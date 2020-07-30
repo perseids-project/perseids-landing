@@ -83,7 +83,6 @@ const PerseidsPlatform = () => (
         hasSeparator={false}
       />
 
-
       <div className="row pb-4">
         <div className="col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-12">
           <a className="btn btn-lg btn-block btn-secondary" href="https://sosol.perseids.org/sosol/signin" role="button">

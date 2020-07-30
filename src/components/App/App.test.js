@@ -8,10 +8,11 @@ it('renders without crashing', () => {
   render(<App />, div);
 });
 
-it('renders title', () => {
-  const { getByText } = render(<App />);
+it('renders project name in title and footer', () => {
+  const { getAllByText } = render(<App />);
 
-  expect(getByText('The Perseids Project')).toBeInTheDocument();
+  expect(getAllByText('The Perseids Project')[0]).toBeInTheDocument();
+  expect(getAllByText('The Perseids Project')[0]).toBeInTheDocument();
 });
 
 it('renders subsections and navbar', () => {
@@ -29,9 +30,10 @@ it('renders sponsors', () => {
 });
 
 it('renders social media', () => {
-  const { getByText } = render(<App />);
+  const { getByTitle } = render(<App />);
 
-  expect(getByText('© The Perseids Project 2020')).toBeInTheDocument();
+  expect(getByTitle('View Source on Github')).toBeInTheDocument();
+  expect(getByTitle('Twitter')).toBeInTheDocument();
 });
 
 describe('navbar navigation', () => {
