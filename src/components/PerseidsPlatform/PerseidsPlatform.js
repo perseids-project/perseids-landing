@@ -65,7 +65,7 @@ const PerseidsPlatform = () => (
 
       <ListItem
         id="cross-disciplinary"
-        title="platform.teamwork.title"
+        title="platform.research.title"
         text="platform.research.text"
         image={manuscript}
         alt="manuscript"
