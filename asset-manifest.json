@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/perseids-landing/static/css/main.f72b3966.chunk.css",
-    "main.js": "/perseids-landing/static/js/main.8b204566.chunk.js",
-    "main.js.map": "/perseids-landing/static/js/main.8b204566.chunk.js.map",
+    "main.js": "/perseids-landing/static/js/main.87c6c8da.chunk.js",
+    "main.js.map": "/perseids-landing/static/js/main.87c6c8da.chunk.js.map",
     "runtime-main.js": "/perseids-landing/static/js/runtime-main.a049a7e3.js",
     "runtime-main.js.map": "/perseids-landing/static/js/runtime-main.a049a7e3.js.map",
     "static/css/2.f38cb043.chunk.css": "/perseids-landing/static/css/2.f38cb043.chunk.css",
     "static/js/2.0f793b66.chunk.js": "/perseids-landing/static/js/2.0f793b66.chunk.js",
     "static/js/2.0f793b66.chunk.js.map": "/perseids-landing/static/js/2.0f793b66.chunk.js.map",
     "index.html": "/perseids-landing/index.html",
-    "precache-manifest.99f05d716bcaaa88f7ca6b678b3d1c6c.js": "/perseids-landing/precache-manifest.99f05d716bcaaa88f7ca6b678b3d1c6c.js",
+    "precache-manifest.cb393f5bcb5313dfe1f2fc379d84f1ee.js": "/perseids-landing/precache-manifest.cb393f5bcb5313dfe1f2fc379d84f1ee.js",
     "service-worker.js": "/perseids-landing/service-worker.js",
     "static/css/2.f38cb043.chunk.css.map": "/perseids-landing/static/css/2.f38cb043.chunk.css.map",
     "static/css/main.f72b3966.chunk.css.map": "/perseids-landing/static/css/main.f72b3966.chunk.css.map",
@@ -37,6 +37,6 @@
     "static/css/2.f38cb043.chunk.css",
     "static/js/2.0f793b66.chunk.js",
     "static/css/main.f72b3966.chunk.css",
-    "static/js/main.8b204566.chunk.js"
+    "static/js/main.87c6c8da.chunk.js"
   ]
 }
