@@ -50,7 +50,7 @@ const DigitalEditions = () => (
         image={treebank}
         alt="picture of treebank"
         links={[
-          { link: 'https://perseids-project.github.io/harrington_trees/', text: 'editions.treebanking.harrington', key: 'harrington-trees' },
+          { link: 'https://perseids-publications.github.io/harrington-trees/', text: 'editions.treebanking.harrington', key: 'harrington-trees' },
           { link: 'https://perseids-publications.github.io/gorman-trees/', text: 'editions.treebanking.gorman', key: 'gorman-trees' },
           { link: 'https://perseusdl.github.io/treebank_data/', text: 'editions.treebanking.agldt', key: 'agldt-trees' },
         ]}
