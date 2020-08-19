@@ -21,6 +21,22 @@ const SoftwareLibraries = () => (
     <div className="container">
 
       <ListItem
+        id="editing"
+        title="libraries.editing.title"
+        text="libraries.editing.text"
+        reverse
+        image={demixer}
+        alt="screenshot of Greek-Latin Demixer"
+        links={[
+          { link: 'https://apps.perseids.org/beta-code/', text: 'libraries.editing.beta', key: 'beta-code' },
+          { link: 'https://apps.perseids.org/demixer/', text: 'libraries.editing.demixer', key: 'demixer' },
+          { link: 'https://apps.perseids.org/polytonic/', text: 'libraries.editing.polytonic', key: 'polytonic' },
+          { link: 'https://apps.perseids.org/greek-conjugator/', text: 'libraries.editing.conjugator', key: 'greek-conjugator' },
+          { link: 'https://apps.perseids.org/treebank-wordcloud/', text: 'libraries.editing.wordcloud', key: 'wordcloud' },
+        ]}
+      />
+
+      <ListItem
         id="morphology"
         title="libraries.morphology.title"
         text="libraries.morphology.text"
@@ -43,21 +59,6 @@ const SoftwareLibraries = () => (
         links={[
           { link: 'https://perseids-project.github.io/lsj-js/', text: 'libraries.lexica.lsj', key: 'lsj' },
           { link: 'https://perseids-project.github.io/woodhouse-js/', text: 'libraries.lexica.woodhouse', key: 'woodhouse' },
-        ]}
-      />
-
-      <ListItem
-        id="editing"
-        title="libraries.editing.title"
-        text="libraries.editing.text"
-        reverse
-        image={demixer}
-        alt="screenshot of Greek-Latin Demixer"
-        links={[
-          { link: 'https://apps.perseids.org/beta-code/', text: 'libraries.editing.beta', key: 'beta-code' },
-          { link: 'https://apps.perseids.org/demixer/', text: 'libraries.editing.demixer', key: 'demixer' },
-          { link: 'https://apps.perseids.org/polytonic/', text: 'libraries.editing.polytonic', key: 'polytonic' },
-          { link: 'https://apps.perseids.org/greek-conjugator/', text: 'libraries.editing.conjugator', key: 'greek-conjugator' },
         ]}
       />
 

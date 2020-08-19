@@ -127,10 +127,12 @@ const translations = {
         harrington: "J. M. Harrington Published Trees",
         gorman: "Treebanks by Vanessa Gorman",
         agldt: "The AGLDT",
+        daphne: "Daphne repository by Francesco Mambrini",
       },
       other: {
         title: "Other Publications",
         explore: "Explore some of the many different publications that have been created with or with the support of The Perseids Project.",
+        reasoning: "D'Arcy Thompson's Reasoning Machine",
         epigraphy: "Epigraphy",
         fragmentary: "Fragmentary texts",
         annotation: "Thematic annotation",
@@ -174,6 +176,7 @@ const translations = {
         demixer: "Greek-Latin demixer",
         polytonic: "Polytonic Greek keyboard",
         conjugator: "Greek verb conjugator",
+        wordcloud: "Treebank word cloud explorer",
       },
       other: {
         title: "Other Repositories",
@@ -348,10 +351,12 @@ const translations = {
         harrington: "J. J. M. Harrington Arbres syntaxiques publiés",
         gorman: "Arbres syntaxiques par Vanessa Gorman",
         agldt: "Les balises AGLDT",
+        daphne: "Dépôt Daphne par Francesco Mambrini",
       },
       other: {
         title: "Autres publications",
         explore: "Explorer quelques unes des multiples publications créées au moyen de la plateforme Perseids ou grâce à son soutien",
+        reasoning: "Le machine de raisonnement de D'Arcy Thompson",
         epigraphy: "Épigraphie",
         fragmentary: "Textes fragmentaires",
         annotation: "Annotations thématiques",
@@ -395,6 +400,7 @@ const translations = {
         demixer: "Séparateur de grec et latin",
         polytonic: "Clavier grec polytonique",
         conjugator: "Conjugaison grecque",
+        wordcloud: "Explorateur d'arbres syntaxiques utilisant des nuages de mots",
       },
       other: {
         title: "Autres logithèques",
