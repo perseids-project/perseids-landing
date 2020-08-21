@@ -5,10 +5,17 @@ import I18n from '../I18n';
 import Hero from '../Hero';
 import ListItem from '../ListItem';
 
-import ancientbirds from '../../img/ancientbirds.png';
-import bodin from '../../img/bodin.png';
-import digmill from '../../img/digmill.png';
-import treebank from '../../img/treebank.png';
+import ancientbirdsPng from '../../img/ancientbirds.png';
+import ancientbirdsWebp from '../../img/ancientbirds.webp';
+
+import bodinPng from '../../img/bodin.png';
+import bodinWebp from '../../img/bodin.webp';
+
+import digmillPng from '../../img/digmill.png';
+import digmillWebp from '../../img/digmill.webp';
+
+import treebankPng from '../../img/treebank.png';
+import treebankWebp from '../../img/treebank.webp';
 
 const DigitalEditions = () => (
   <>
@@ -25,8 +32,7 @@ const DigitalEditions = () => (
         title="editions.treebanking.title"
         text="editions.treebanking.text"
         reverse
-        image={treebank}
-        alt="picture of treebank"
+        image={{ webp: treebankWebp, png: treebankPng, alt: 'picture of treebank' }}
         links={[
           { link: 'https://perseids-publications.github.io/harrington-trees/', text: 'editions.treebanking.harrington', key: 'harrington-trees' },
           { link: 'https://perseids-publications.github.io/gorman-trees/', text: 'editions.treebanking.gorman', key: 'gorman-trees' },
@@ -41,8 +47,7 @@ const DigitalEditions = () => (
         text="editions.darcy.text"
         linkText="editions.darcy.link"
         reverse
-        image={ancientbirds}
-        alt="screenshot of Birds in Ancient Mythology"
+        image={{ webp: ancientbirdsWebp, png: ancientbirdsPng, alt: 'screenshot of Birds in Ancient Mythology' }}
         link="https://sites.tufts.edu/ancientbirds/"
       />
 
@@ -52,8 +57,7 @@ const DigitalEditions = () => (
         text="editions.digmill.text"
         linkText="editions.digmill.link"
         reverse
-        image={digmill}
-        alt="screenshot of Digital Milliet"
+        image={{ webp: digmillWebp, png: digmillPng, alt: 'screenshot of Digital Milliet' }}
         link="https://digmill.perseids.org/"
       />
 
@@ -61,8 +65,7 @@ const DigitalEditions = () => (
         title="editions.other.title"
         id="demo-publications"
         reverse
-        image={bodin}
-        alt="screenshot of the trilingual Bodin alignment"
+        image={{ webp: bodinWebp, png: bodinPng, alt: 'screenshot of the trilingual Bodin alignment' }}
         hasSeparator={false}
       >
         <>

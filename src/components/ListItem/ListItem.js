@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 
 import I18n from '../I18n';
 
+import Picture from '../Picture';
+
 const renderLink = (link, linkText, key) => (
   <p key={key}>
     <a className="btn btn-secondary" href={link} role="button">
@@ -25,8 +27,9 @@ const ListItem = ({
   title,
   id,
   text,
-  image,
-  alt,
+  image: {
+    webp, png, jpg, alt,
+  },
   reverse,
   link,
   links,
@@ -52,7 +55,7 @@ const ListItem = ({
         {links && renderLinks(links) }
       </div>
       <div className={`col-md-6 ${imageOrder} ${imageDisplay}`}>
-        <img className="img-fluid" src={image} alt={alt} />
+        <Picture webp={webp} png={png} jpg={jpg} alt={alt} className="img-fluid" />
       </div>
     </div>
   );
@@ -62,8 +65,12 @@ ListItem.propTypes = {
   title: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
   text: PropTypes.string,
-  image: PropTypes.string.isRequired,
-  alt: PropTypes.string.isRequired,
+  image: PropTypes.shape({
+    alt: PropTypes.string.isRequired,
+    webp: PropTypes.string.isRequired,
+    png: PropTypes.string,
+    jpg: PropTypes.string,
+  }).isRequired,
   reverse: PropTypes.bool,
   hideImageSmall: PropTypes.bool,
   hasSeparator: PropTypes.bool,

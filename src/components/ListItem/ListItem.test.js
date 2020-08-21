@@ -4,7 +4,7 @@ import { MemoryRouter } from 'react-router-dom';
 
 import ListItem from './ListItem';
 
-import treebank from '../../img/treebank.png';
+import treebankWebp from '../../img/treebank.webp';
 
 it('renders without crashing', () => {
   const div = window.document.createElement('div');
@@ -12,8 +12,7 @@ it('renders without crashing', () => {
     title: 'hello',
     id: 'hello',
     text: 'some text',
-    image: treebank,
-    alt: 'treebank',
+    image: { webp: treebankWebp, alt: 'treebank' },
   };
   const component = (
     <MemoryRouter>

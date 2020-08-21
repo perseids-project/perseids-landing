@@ -2,12 +2,25 @@ import React from 'react';
 
 import I18n from '../../I18n';
 
-import frqsc from '../../../img/sponsor/frqsc.png';
-import imls from '../../../img/sponsor/imls.png';
-import kress from '../../../img/sponsor/kress.png';
-import mellon from '../../../img/sponsor/mellon.jpg';
-import neh from '../../../img/sponsor/neh.png';
-import tufts from '../../../img/sponsor/tufts.png';
+import Picture from '../../Picture';
+
+import frqscPng from '../../../img/sponsor/frqsc.png';
+import frqscWebp from '../../../img/sponsor/frqsc.webp';
+
+import imlsPng from '../../../img/sponsor/imls.png';
+import imlsWebp from '../../../img/sponsor/imls.webp';
+
+import kressPng from '../../../img/sponsor/kress.png';
+import kressWepb from '../../../img/sponsor/kress.webp';
+
+import mellonJpg from '../../../img/sponsor/mellon.jpg';
+import mellonWebp from '../../../img/sponsor/mellon.webp';
+
+import nehPng from '../../../img/sponsor/neh.png';
+import nehWepb from '../../../img/sponsor/neh.webp';
+
+import tuftsPng from '../../../img/sponsor/tufts.png';
+import tuftsWepb from '../../../img/sponsor/tufts.webp';
 
 const Sponsors = () => (
   <footer className="footer">
@@ -19,21 +32,21 @@ const Sponsors = () => (
         <div className="col-md-4">
           <p>
             <a target="_blank" rel="noopener noreferrer" href="https://mellon.org/">
-              <img className="footer-sponsor-img" src={mellon} title="Andrew W. Mellon Foundation" alt="Andrew W. Mellon Foundation" />
+              <Picture className="footer-sponsor-img" jpg={mellonJpg} webp={mellonWebp} title="Andrew W. Mellon Foundation" alt="Andrew W. Mellon Foundation" />
             </a>
           </p>
         </div>
         <div className="col-md-4">
           <p>
             <a target="_blank" rel="noopener noreferrer" href="https://www.neh.gov/">
-              <img className="footer-sponsor-img" src={neh} title="National Endowment for the Humanities" alt="National Endowment for the Humanities" />
+              <Picture className="footer-sponsor-img" src={nehPng} webp={nehWepb} title="National Endowment for the Humanities" alt="National Endowment for the Humanities" />
             </a>
           </p>
         </div>
         <div className="col-md-4">
           <p>
             <a target="_blank" rel="noopener noreferrer" href="https://www.tufts.edu/">
-              <img className="footer-sponsor-img" src={tufts} title="Tufts University" alt="Tufts University" />
+              <Picture className="footer-sponsor-img" src={tuftsPng} webp={tuftsWepb} title="Tufts University" alt="Tufts University" />
             </a>
           </p>
         </div>
@@ -42,21 +55,21 @@ const Sponsors = () => (
         <div className="col-md-4">
           <p>
             <a target="_blank" rel="noopener noreferrer" href="https://www.imls.gov/">
-              <img className="footer-sponsor-img" src={imls} title="Institute of Museum and Library Services" alt="Institute of Museum and Library Services" />
+              <Picture className="footer-sponsor-img" src={imlsPng} webp={imlsWebp} title="Institute of Museum and Library Services" alt="Institute of Museum and Library Services" />
             </a>
           </p>
         </div>
         <div className="col-md-4">
           <p>
             <a target="_blank" rel="noopener noreferrer" href="http://www.kressfoundation.org/">
-              <img className="footer-sponsor-img" src={kress} title="The Samuel H. Kress Foundation" alt="The Samuel H. Kress Foundation" />
+              <Picture className="footer-sponsor-img" src={kressPng} webp={kressWepb} title="The Samuel H. Kress Foundation" alt="The Samuel H. Kress Foundation" />
             </a>
           </p>
         </div>
         <div className="col-md-4">
           <p>
             <a target="_blank" rel="noopener noreferrer" href="http://www.frqsc.gouv.qc.ca/">
-              <img className="footer-sponsor-img" src={frqsc} title="Le Fonds de recherche du Québec – Société et culture" alt="Le Fonds de recherche du Québec – Société et culture" />
+              <Picture className="footer-sponsor-img" src={frqscPng} webp={frqscWebp} title="Le Fonds de recherche du Québec – Société et culture" alt="Le Fonds de recherche du Québec – Société et culture" />
             </a>
           </p>
         </div>

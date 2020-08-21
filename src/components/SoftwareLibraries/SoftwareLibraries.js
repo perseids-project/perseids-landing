@@ -5,10 +5,17 @@ import I18n from '../I18n';
 import Hero from '../Hero';
 import ListItem from '../ListItem';
 
-import code from '../../img/code.png';
-import demixer from '../../img/demixer.png';
-import lexicon from '../../img/lexicon.png';
-import morphsvc from '../../img/morphsvc.png';
+import codePng from '../../img/code.png';
+import codeWebp from '../../img/code.webp';
+
+import demixerPng from '../../img/demixer.png';
+import demixerWebp from '../../img/demixer.webp';
+
+import lexiconPng from '../../img/lexicon.png';
+import lexiconWebp from '../../img/lexicon.webp';
+
+import morphsvcPng from '../../img/morphsvc.png';
+import morphsvcWebp from '../../img/morphsvc.webp';
 
 const SoftwareLibraries = () => (
   <>
@@ -25,8 +32,7 @@ const SoftwareLibraries = () => (
         title="libraries.editing.title"
         text="libraries.editing.text"
         reverse
-        image={demixer}
-        alt="screenshot of Greek-Latin Demixer"
+        image={{ webp: demixerWebp, png: demixerPng, alt: 'screenshot of Greek-Latin Demixer' }}
         links={[
           { link: 'https://apps.perseids.org/beta-code/', text: 'libraries.editing.beta', key: 'beta-code' },
           { link: 'https://apps.perseids.org/demixer/', text: 'libraries.editing.demixer', key: 'demixer' },
@@ -41,8 +47,7 @@ const SoftwareLibraries = () => (
         title="libraries.morphology.title"
         text="libraries.morphology.text"
         reverse
-        image={morphsvc}
-        alt="XML output of morphology API"
+        image={{ webp: morphsvcWebp, png: morphsvcPng, alt: 'XML output of morphology API' }}
         links={[
           { link: 'https://sites.tufts.edu/perseusupdates/2012/11/01/morphology-service-beta/', text: 'libraries.morphology.api', key: 'morphology-service-info' },
           { link: 'https://github.com/perseids-tools/morpheus-perseids', text: 'libraries.morphology.repository', key: 'morpheus-perseids-info' },
@@ -54,8 +59,7 @@ const SoftwareLibraries = () => (
         title="libraries.lexica.title"
         text="libraries.lexica.text"
         reverse
-        image={lexicon}
-        alt="picture of a Greek-English dictionary"
+        image={{ webp: lexiconWebp, png: lexiconPng, alt: 'picture of a Greek-English dictionary' }}
         links={[
           { link: 'https://perseids-project.github.io/lsj-js/', text: 'libraries.lexica.lsj', key: 'lsj' },
           { link: 'https://perseids-project.github.io/woodhouse-js/', text: 'libraries.lexica.woodhouse', key: 'woodhouse' },
@@ -66,8 +70,7 @@ const SoftwareLibraries = () => (
         title="libraries.other.title"
         id="repositories"
         reverse
-        image={code}
-        alt="screenshot of code"
+        image={{ webp: codeWebp, png: codePng, alt: 'screenshot of code' }}
         hasSeparator={false}
       >
         <>

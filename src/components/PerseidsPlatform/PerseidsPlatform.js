@@ -5,10 +5,17 @@ import I18n from '../I18n';
 import Hero from '../Hero';
 import ListItem from '../ListItem';
 
-import treebank from '../../img/treebank.png';
-import community from '../../img/community.png';
-import manuscript from '../../img/manuscript.png';
-import sharing from '../../img/sharing.png';
+import arethusaPng from '../../img/arethusa.png';
+import arethusaWebp from '../../img/arethusa.webp';
+
+import communityPng from '../../img/community.png';
+import communityWebp from '../../img/community.webp';
+
+import manuscriptPng from '../../img/manuscript.png';
+import manuscriptWebp from '../../img/manuscript.webp';
+
+import sharingPng from '../../img/sharing.png';
+import sharingWebp from '../../img/sharing.webp';
 
 const PerseidsPlatform = () => (
   <>
@@ -48,8 +55,7 @@ const PerseidsPlatform = () => (
         id="interacting"
         title="platform.interacting.title"
         text="platform.interacting.text"
-        image={treebank}
-        alt="treebanking"
+        image={{ webp: arethusaWebp, png: arethusaPng, alt: 'screenshot of Arethusa' }}
         hideImageSmall={false}
       />
 
@@ -57,8 +63,7 @@ const PerseidsPlatform = () => (
         id="teamwork"
         title="platform.teamwork.title"
         text="platform.teamwork.text"
-        image={community}
-        alt="community"
+        image={{ webp: communityWebp, png: communityPng, alt: 'classroom with students' }}
         reverse
         hideImageSmall={false}
       />
@@ -67,8 +72,7 @@ const PerseidsPlatform = () => (
         id="cross-disciplinary"
         title="platform.research.title"
         text="platform.research.text"
-        image={manuscript}
-        alt="manuscript"
+        image={{ webp: manuscriptWebp, png: manuscriptPng, alt: 'manuscript edited with digital tools' }}
         hideImageSmall={false}
       />
 
@@ -76,8 +80,7 @@ const PerseidsPlatform = () => (
         id="open-data"
         title="platform.data.title"
         text="platform.data.text"
-        image={sharing}
-        alt="sharing"
+        image={{ webp: sharingWebp, png: sharingPng, alt: 'graph of commits' }}
         reverse
         hideImageSmall={false}
         hasSeparator={false}
