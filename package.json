@@ -1,6 +1,6 @@
 {
   "name": "perseids-landing",
-  "version": "0.1.2",
+  "version": "1.0.1",
   "private": true,
   "homepage": "https://perseids-project.github.io/perseids-landing/",
   "dependencies": {
