@@ -4,8 +4,8 @@ import columns from '../../img/background/columns.jpg';
 import construction from '../../img/background/construction.jpg';
 import hermes from '../../img/background/hermes.jpg';
 import sunset from '../../img/background/sunset.jpg';
-import text from '../../img/background/text.png';
-import funeraryPlaque from '../../img/background/funerary-plaque.png';
+import text from '../../img/background/text.jpg';
+import funeraryPlaque from '../../img/background/funerary-plaque.jpg';
 
 const images = {
   columns,
