@@ -348,7 +348,7 @@ const translations = {
             des publications collaboratives et interactives.
           </>
         ),
-        harrington: "J. J. M. Harrington Arbres syntaxiques publiés",
+        harrington: "J. M. Harrington arbres syntaxiques publiés",
         gorman: "Arbres syntaxiques par Vanessa Gorman",
         agldt: "Les balises AGLDT",
         daphne: "L'archive d'arbres syntaxiques Daphné par Francesco Mambrini",
