@@ -356,7 +356,7 @@ const translations = {
       other: {
         title: "Autres publications",
         explore: "Explorer quelques unes des multiples publications créées au moyen de la plateforme Perseids ou grâce à son soutien",
-        reasoning: "Le machine de raisonnement de D'Arcy Thompson",
+        reasoning: "La machine de raisonnement de D'Arcy Thompson",
         epigraphy: "Épigraphie",
         fragmentary: "Textes fragmentaires",
         annotation: "Annotations thématiques",
