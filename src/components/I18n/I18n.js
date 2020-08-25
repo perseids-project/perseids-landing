@@ -351,12 +351,12 @@ const translations = {
         harrington: "J. J. M. Harrington Arbres syntaxiques publiés",
         gorman: "Arbres syntaxiques par Vanessa Gorman",
         agldt: "Les balises AGLDT",
-        daphne: "Dépôt Daphne par Francesco Mambrini",
+        daphne: "L'archive d'arbres syntaxiques Daphné par Francesco Mambrini",
       },
       other: {
         title: "Autres publications",
         explore: "Explorer quelques unes des multiples publications créées au moyen de la plateforme Perseids ou grâce à son soutien",
-        reasoning: "La machine de raisonnement de D'Arcy Thompson",
+        reasoning: "La machine à raisonner de D’Arcy Thompson",
         epigraphy: "Épigraphie",
         fragmentary: "Textes fragmentaires",
         annotation: "Annotations thématiques",
@@ -400,7 +400,7 @@ const translations = {
         demixer: "Séparateur de grec et latin",
         polytonic: "Clavier grec polytonique",
         conjugator: "Conjugaison grecque",
-        wordcloud: "Explorateur d'arbres syntaxiques utilisant des nuages de mots",
+        wordcloud: "Explorateur d’arbres syntaxiques par nuages de mots",
       },
       other: {
         title: "Autres logithèques",
