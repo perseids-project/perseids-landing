@@ -6,14 +6,14 @@
     "runtime-main.js": "/static/js/runtime-main.ee564a6f.js",
     "runtime-main.js.map": "/static/js/runtime-main.ee564a6f.js.map",
     "static/css/2.7132a92c.chunk.css": "/static/css/2.7132a92c.chunk.css",
-    "static/js/2.1cca0d23.chunk.js": "/static/js/2.1cca0d23.chunk.js",
-    "static/js/2.1cca0d23.chunk.js.map": "/static/js/2.1cca0d23.chunk.js.map",
+    "static/js/2.9eb6f5f9.chunk.js": "/static/js/2.9eb6f5f9.chunk.js",
+    "static/js/2.9eb6f5f9.chunk.js.map": "/static/js/2.9eb6f5f9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dcbc193d6e1ceace350454382570c989.js": "/precache-manifest.dcbc193d6e1ceace350454382570c989.js",
+    "precache-manifest.3b380254a5d814f9489e190815b9be45.js": "/precache-manifest.3b380254a5d814f9489e190815b9be45.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.7132a92c.chunk.css.map": "/static/css/2.7132a92c.chunk.css.map",
     "static/css/main.5000970f.chunk.css.map": "/static/css/main.5000970f.chunk.css.map",
-    "static/js/2.1cca0d23.chunk.js.LICENSE.txt": "/static/js/2.1cca0d23.chunk.js.LICENSE.txt",
+    "static/js/2.9eb6f5f9.chunk.js.LICENSE.txt": "/static/js/2.9eb6f5f9.chunk.js.LICENSE.txt",
     "static/media/ancientbirds.webp": "/static/media/ancientbirds.2662b5ab.webp",
     "static/media/ancientbirds.png": "/static/media/ancientbirds.71ae50b2.png",
     "static/media/arethusa.webp": "/static/media/arethusa.13912e03.webp",
@@ -54,7 +54,7 @@
   "entrypoints": [
     "static/js/runtime-main.ee564a6f.js",
     "static/css/2.7132a92c.chunk.css",
-    "static/js/2.1cca0d23.chunk.js",
+    "static/js/2.9eb6f5f9.chunk.js",
     "static/css/main.5000970f.chunk.css",
     "static/js/main.f085dfe8.chunk.js"
   ]
