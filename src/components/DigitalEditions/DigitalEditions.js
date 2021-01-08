@@ -36,8 +36,9 @@ const DigitalEditions = () => (
         links={[
           { link: 'https://perseids-publications.github.io/harrington-trees/', text: 'editions.treebanking.harrington', key: 'harrington-trees' },
           { link: 'https://perseids-publications.github.io/gorman-trees/', text: 'editions.treebanking.gorman', key: 'gorman-trees' },
-          { link: 'https://perseusdl.github.io/treebank_data/', text: 'editions.treebanking.agldt', key: 'agldt-trees' },
+          { link: 'https://perseids-publications.github.io/pedalion-trees/', text: 'editions.treebanking.pedalion', key: 'pedalion-trees' },
           { link: 'https://perseids-publications.github.io/daphne-trees/', text: 'editions.treebanking.daphne', key: 'daphne-trees' },
+          { link: 'https://perseusdl.github.io/treebank_data/', text: 'editions.treebanking.agldt', key: 'agldt-trees' },
         ]}
       />
 
