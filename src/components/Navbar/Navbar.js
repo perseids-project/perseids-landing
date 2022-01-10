@@ -20,7 +20,7 @@ const renderCollapse = (collapsed, pathname, locale) => (
   <Collapse isOpen={!collapsed} navbar>
     <ul className="navbar-nav mr-auto">
       <li className="nav-item">
-        <NavLink className="nav-link" to="/perseids-platform">
+        <NavLink className="nav-link" to={{ pathname: '/perseids-platform' }}>
           <I18n t="header.platform" />
         </NavLink>
       </li>
@@ -37,6 +37,11 @@ const renderCollapse = (collapsed, pathname, locale) => (
       <li className="nav-item">
         <NavLink className="nav-link" to="/contact">
           <I18n t="header.contact" />
+        </NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink className="nav-link" to="/about">
+          <I18n t="header.about" />
         </NavLink>
       </li>
       <li className="nav-item">

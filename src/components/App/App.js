@@ -10,6 +10,7 @@ import NotFound from '../NotFound';
 import PerseidsPlatform from '../PerseidsPlatform';
 import SoftwareLibraries from '../SoftwareLibraries';
 import Contact from '../Contact';
+import About from '../About';
 
 import ImagePreload from '../ImagePreload';
 
@@ -27,6 +28,7 @@ const App = () => (
           <Route exact path={`${base}/libraries-tools`} component={SoftwareLibraries} />
           <Route exact path={`${base}/perseids-platform`} component={PerseidsPlatform} />
           <Route exact path={`${base}/contact`} component={Contact} />
+          <Route exact path={`${base}/about`} component={About} />
           <Route component={NotFound} />
         </Switch>
       </main>

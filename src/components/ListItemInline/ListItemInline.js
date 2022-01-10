@@ -15,17 +15,34 @@ const renderLink = (link, to, linkText) => {
     );
   }
 
-  return (
-    <Link className="btn btn-secondary mr-2" to={to} role="button">
-      <I18n t={linkText} />
-      {' '}
-      »
-    </Link>
-  );
+  if (to) {
+    return (
+      <Link className="btn btn-secondary mr-2" to={to} role="button">
+        <I18n t={linkText} />
+        {' '}
+        »
+      </Link>
+    );
+  }
+
+  return false;
+};
+
+const renderSubtitle = (subtitle) => {
+  if (subtitle) {
+    return (
+      <h4>
+        <I18n t={subtitle} />
+      </h4>
+    );
+  }
+
+  return false;
 };
 
 const ListItemInline = ({
   title,
+  subtitle,
   id,
   text,
   to,
@@ -40,6 +57,7 @@ const ListItemInline = ({
       <h2>
         <I18n t={title} />
       </h2>
+      {renderSubtitle(subtitle)}
       <p>
         <I18n t={text} />
       </p>
@@ -52,6 +70,7 @@ const ListItemInline = ({
 
 ListItemInline.propTypes = {
   title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string,
   id: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   link: PropTypes.string,
@@ -62,6 +81,7 @@ ListItemInline.propTypes = {
 
 ListItemInline.defaultProps = {
   hasSeparator: true,
+  subtitle: undefined,
   link: undefined,
   to: undefined,
 };

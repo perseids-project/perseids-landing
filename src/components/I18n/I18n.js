@@ -208,11 +208,35 @@ const translations = {
         link: "Send a message",
       },
     },
+    about: {
+      hero: {
+        title: "About the Perseids Team",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      },
+      mc: {
+        title: "Marie-Claire Beaulieu",
+        subtitle: "Co-director",
+        text: "Aenean eleifend dictum magna, ut luctus nunc vehicula vel. Morbi tellus nulla, consectetur vitae hendrerit sit amet, consequat a dui. Integer vel nunc ut felis suscipit convallis.",
+        link: "Website",
+      },
+      vg: {
+        title: "Vanessa Gorman",
+        subtitle: "Co-director",
+        text: "Cras molestie sodales maximus. Sed mattis placerat tortor ac scelerisque. Curabitur molestie sapien enim, imperdiet fermentum sapien pharetra eget. Integer at porttitor est, vulputate posuere odio.",
+        link: "Website",
+      },
+      zf: {
+        title: "Zachary Fletcher",
+        subtitle: "Technical lead",
+        text: "Nullam in pretium felis, ut vehicula nibh. Nulla vehicula a tellus nec tempor. Phasellus ante enim, iaculis maximus maximus eget, aliquet accumsan odio. Donec bibendum lobortis metus et faucibus. Phasellus lacinia neque gravida gravida interdum",
+      },
+    },
     header: {
       platform: "Perseids Platform",
       editions: "Digital Editions",
       tools: "Libraries and Tools",
       contact: "Contact Us",
+      about: "About",
       blog: "Blog",
       login: "Log in",
       language: "Français",
