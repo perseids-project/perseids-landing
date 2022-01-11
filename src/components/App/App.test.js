@@ -21,6 +21,8 @@ it('renders subsections and navbar', () => {
   expect(queryAllByText(/Perseids Platform/)).toHaveLength(3);
   expect(queryAllByText(/Digital Editions/)).toHaveLength(2);
   expect(queryAllByText(/Libraries and Tools/)).toHaveLength(2);
+  expect(queryAllByText(/Contact Us/)).toHaveLength(1);
+  expect(queryAllByText(/About/)).toHaveLength(1);
 });
 
 it('renders sponsors', () => {

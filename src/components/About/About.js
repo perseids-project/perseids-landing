@@ -32,7 +32,10 @@ const Contact = () => (
           subtitle="about.vg.subtitle"
           text="about.vg.text"
           linkText="about.vg.link"
-          link="https://history.unl.edu/vanessa-b-gorman"
+          links={[
+            { link: 'https://history.unl.edu/vanessa-b-gorman', text: 'about.vg.siteLink', key: 'vg-site-link' },
+            { link: 'https://vgorman1.github.io/Greek-Language-Class/', text: 'about.vg.greekLink', key: 'vg-greek-link' },
+          ]}
         />
 
         <hr className="d-md-none" />

@@ -44,11 +44,6 @@ const renderCollapse = (collapsed, pathname, locale) => (
           <I18n t="header.about" />
         </NavLink>
       </li>
-      <li className="nav-item">
-        <a className="nav-link" href="https://sites.tufts.edu/perseids/">
-          <I18n t="header.blog" />
-        </a>
-      </li>
     </ul>
 
     <ul className="navbar-nav my-2 my-lg-02">

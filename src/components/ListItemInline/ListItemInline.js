@@ -4,41 +4,45 @@ import { Link } from 'react-router-i18n';
 
 import I18n from '../I18n';
 
-const renderLink = (link, to, linkText) => {
-  if (link) {
-    return (
-      <a className="btn btn-secondary" href={link} role="button">
-        <I18n t={linkText} />
-        {' '}
-        »
-      </a>
-    );
-  }
+const renderLink = (link, linkText) => (
+  <a className="btn btn-secondary" href={link} role="button">
+    <I18n t={linkText} />
+    {' '}
+    »
+  </a>
+);
 
-  if (to) {
-    return (
-      <Link className="btn btn-secondary mr-2" to={to} role="button">
-        <I18n t={linkText} />
-        {' '}
-        »
-      </Link>
-    );
-  }
+const renderTo = (to, linkText) => (
+  <Link className="btn btn-secondary mr-2" to={to} role="button">
+    <I18n t={linkText} />
+    {' '}
+    »
+  </Link>
+);
 
-  return false;
-};
+const renderSingleLink = (link, linkText, key) => (
+  <p key={key}>
+    <a className="btn btn-secondary" href={link} role="button">
+      {linkText ? <I18n t={linkText} /> : link}
+      {' '}
+      »
+    </a>
+  </p>
+);
 
-const renderSubtitle = (subtitle) => {
-  if (subtitle) {
-    return (
-      <h4>
-        <I18n t={subtitle} />
-      </h4>
-    );
-  }
+const renderLinks = (links) => links.map(({ link, txt, key }) => renderSingleLink(link, txt, key));
 
-  return false;
-};
+const renderText = (text) => (
+  <p>
+    <I18n t={text} />
+  </p>
+);
+
+const renderSubtitle = (subtitle) => (
+  <h3 className="h5">
+    <I18n t={subtitle} />
+  </h3>
+);
 
 const ListItemInline = ({
   title,
@@ -47,6 +51,7 @@ const ListItemInline = ({
   text,
   to,
   link,
+  links,
   linkText,
   hasSeparator,
 }) => {
@@ -57,13 +62,11 @@ const ListItemInline = ({
       <h2>
         <I18n t={title} />
       </h2>
-      {renderSubtitle(subtitle)}
-      <p>
-        <I18n t={text} />
-      </p>
-      <p>
-        {renderLink(link, to, linkText)}
-      </p>
+      {subtitle && renderSubtitle(subtitle)}
+      {text && renderText(text)}
+      {link && renderLink(link, linkText)}
+      {to && renderTo(to, linkText)}
+      {links && renderLinks(links)}
     </div>
   );
 };
@@ -74,8 +77,13 @@ ListItemInline.propTypes = {
   id: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   link: PropTypes.string,
+  links: PropTypes.arrayOf(PropTypes.shape({
+    link: PropTypes.string,
+    text: PropTypes.string,
+    key: PropTypes.string,
+  })),
   to: PropTypes.string,
-  linkText: PropTypes.string.isRequired,
+  linkText: PropTypes.string,
   hasSeparator: PropTypes.bool,
 };
 
@@ -83,6 +91,8 @@ ListItemInline.defaultProps = {
   hasSeparator: true,
   subtitle: undefined,
   link: undefined,
+  links: undefined,
+  linkText: '',
   to: undefined,
 };
 
