@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/perseids-landing/static/css/main.a024581c.chunk.css",
-    "main.js": "/perseids-landing/static/js/main.e4cd6c95.chunk.js",
-    "main.js.map": "/perseids-landing/static/js/main.e4cd6c95.chunk.js.map",
+    "main.css": "/perseids-landing/static/css/main.7a79b046.chunk.css",
+    "main.js": "/perseids-landing/static/js/main.90156314.chunk.js",
+    "main.js.map": "/perseids-landing/static/js/main.90156314.chunk.js.map",
     "runtime-main.js": "/perseids-landing/static/js/runtime-main.a049a7e3.js",
     "runtime-main.js.map": "/perseids-landing/static/js/runtime-main.a049a7e3.js.map",
     "static/css/2.7132a92c.chunk.css": "/perseids-landing/static/css/2.7132a92c.chunk.css",
-    "static/js/2.66a20dfb.chunk.js": "/perseids-landing/static/js/2.66a20dfb.chunk.js",
-    "static/js/2.66a20dfb.chunk.js.map": "/perseids-landing/static/js/2.66a20dfb.chunk.js.map",
+    "static/js/2.b46dabec.chunk.js": "/perseids-landing/static/js/2.b46dabec.chunk.js",
+    "static/js/2.b46dabec.chunk.js.map": "/perseids-landing/static/js/2.b46dabec.chunk.js.map",
     "index.html": "/perseids-landing/index.html",
-    "precache-manifest.498673ff66458fbd2fbd5582539c72cb.js": "/perseids-landing/precache-manifest.498673ff66458fbd2fbd5582539c72cb.js",
+    "precache-manifest.eba9b13b12a73331528819f6f0ce6cca.js": "/perseids-landing/precache-manifest.eba9b13b12a73331528819f6f0ce6cca.js",
     "service-worker.js": "/perseids-landing/service-worker.js",
     "static/css/2.7132a92c.chunk.css.map": "/perseids-landing/static/css/2.7132a92c.chunk.css.map",
-    "static/css/main.a024581c.chunk.css.map": "/perseids-landing/static/css/main.a024581c.chunk.css.map",
-    "static/js/2.66a20dfb.chunk.js.LICENSE.txt": "/perseids-landing/static/js/2.66a20dfb.chunk.js.LICENSE.txt",
+    "static/css/main.7a79b046.chunk.css.map": "/perseids-landing/static/css/main.7a79b046.chunk.css.map",
+    "static/js/2.b46dabec.chunk.js.LICENSE.txt": "/perseids-landing/static/js/2.b46dabec.chunk.js.LICENSE.txt",
     "static/media/ancientbirds.webp": "/perseids-landing/static/media/ancientbirds.2662b5ab.webp",
     "static/media/ancientbirds.png": "/perseids-landing/static/media/ancientbirds.71ae50b2.png",
     "static/media/arethusa.webp": "/perseids-landing/static/media/arethusa.13912e03.webp",
@@ -22,7 +22,7 @@
     "static/media/bodin.png": "/perseids-landing/static/media/bodin.c49db818.png",
     "static/media/code.png": "/perseids-landing/static/media/code.56297882.png",
     "static/media/code.webp": "/perseids-landing/static/media/code.a4842c0c.webp",
-    "static/media/index.css": "/perseids-landing/static/media/text.5fb02465.jpg",
+    "static/media/index.css": "/perseids-landing/static/media/wall.4fc73eab.jpg",
     "static/media/community.png": "/perseids-landing/static/media/community.163724ee.png",
     "static/media/community.webp": "/perseids-landing/static/media/community.17ba5a5c.webp",
     "static/media/demixer.png": "/perseids-landing/static/media/demixer.0c86748f.png",
@@ -54,8 +54,8 @@
   "entrypoints": [
     "static/js/runtime-main.a049a7e3.js",
     "static/css/2.7132a92c.chunk.css",
-    "static/js/2.66a20dfb.chunk.js",
-    "static/css/main.a024581c.chunk.css",
-    "static/js/main.e4cd6c95.chunk.js"
+    "static/js/2.b46dabec.chunk.js",
+    "static/css/main.7a79b046.chunk.css",
+    "static/js/main.90156314.chunk.js"
   ]
 }

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "559a73e64d01553d795f521076371f27",
+    "revision": "7d9a32dbd8ad24d8c8aadc5b44decd4b",
     "url": "/perseids-landing/index.html"
   },
   {
-    "revision": "4f05e33aa05b4cb3a8a1",
+    "revision": "0d573b6db7a2214198ae",
     "url": "/perseids-landing/static/css/2.7132a92c.chunk.css"
   },
   {
-    "revision": "4bd9f2beceaafb747b38",
-    "url": "/perseids-landing/static/css/main.a024581c.chunk.css"
+    "revision": "7b05c89ed193b6485195",
+    "url": "/perseids-landing/static/css/main.7a79b046.chunk.css"
   },
   {
-    "revision": "4f05e33aa05b4cb3a8a1",
-    "url": "/perseids-landing/static/js/2.66a20dfb.chunk.js"
+    "revision": "0d573b6db7a2214198ae",
+    "url": "/perseids-landing/static/js/2.b46dabec.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/perseids-landing/static/js/2.66a20dfb.chunk.js.LICENSE.txt"
+    "url": "/perseids-landing/static/js/2.b46dabec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4bd9f2beceaafb747b38",
-    "url": "/perseids-landing/static/js/main.e4cd6c95.chunk.js"
+    "revision": "7b05c89ed193b6485195",
+    "url": "/perseids-landing/static/js/main.90156314.chunk.js"
   },
   {
     "revision": "e5f7eae4ac7efb706a97",
@@ -190,5 +190,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bd084aaeac777b2df78fc46bdde2d64f",
     "url": "/perseids-landing/static/media/tufts.bd084aae.png"
+  },
+  {
+    "revision": "4fc73eab1e6f1360f6a41af5ba39d835",
+    "url": "/perseids-landing/static/media/wall.4fc73eab.jpg"
   }
 ]);
