@@ -208,35 +208,12 @@ const translations = {
         link: "Send a message",
       },
     },
-    about: {
-      hero: {
-        title: "About the Perseids Team",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      },
-      mc: {
-        title: "Marie-Claire Beaulieu",
-        subtitle: "Co-director",
-        text: "Aenean eleifend dictum magna, ut luctus nunc vehicula vel. Morbi tellus nulla, consectetur vitae hendrerit sit amet, consequat a dui. Integer vel nunc ut felis suscipit convallis.",
-        link: "Website",
-      },
-      vg: {
-        title: "Vanessa Gorman",
-        subtitle: "Co-director",
-        text: "Cras molestie sodales maximus. Sed mattis placerat tortor ac scelerisque. Curabitur molestie sapien enim, imperdiet fermentum sapien pharetra eget. Integer at porttitor est, vulputate posuere odio.",
-        link: "Website",
-      },
-      zf: {
-        title: "Zachary Fletcher",
-        subtitle: "Technical lead",
-        text: "Nullam in pretium felis, ut vehicula nibh. Nulla vehicula a tellus nec tempor. Phasellus ante enim, iaculis maximus maximus eget, aliquet accumsan odio. Donec bibendum lobortis metus et faucibus. Phasellus lacinia neque gravida gravida interdum",
-      },
-    },
     header: {
       platform: "Perseids Platform",
+      about: "About",
       editions: "Digital Editions",
       tools: "Libraries and Tools",
       contact: "Contact Us",
-      about: "About",
       login: "Log in",
       language: "Français",
       abbreviation: "FR",
@@ -247,6 +224,58 @@ const translations = {
     notFound: {
       title: "404 Page Not Found",
       text: "Looks like you've followed a broken link or entered a URL that doesn't exist on this site.",
+    },
+    about: {
+      hero: {
+        title: "About the Perseids Team",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      },
+      mc: {
+        title: "Marie-Claire Beaulieu",
+        subtitle: "Co-director",
+        text: (
+          <>
+            Marie-Claire Beaulieu is an associate professor of Classical Studies at Tufts
+            University. Her major research areas are Greek mythology and digital humanities.
+            Her book
+            {' '}
+            <em>
+              The Sea in the Greek Imagination
+            </em>
+            {' '}
+            (University of Pennsylvania Press, 2016) explores the Greek representation of the
+            sea as a cosmological space of transition between the living, the dead, and the gods.
+            She is currently developing a digital edition of D&apos;Arcy Thompson&apos;s
+            {' '}
+            <em>
+              Glossary of Greek Birds
+            </em>
+            .
+            <br />
+            <br />
+            With the Perseids Project, Marie-Claire has engaged in large infrastructure-building
+            initiatives in the digital humanities, designing collaborative editing and annotation
+            software. She has also engaged extensively in interdisciplinary teaching, in particular
+            with the Department of Computer Science, and her own classes make frequent use of
+            technology to involve students in the process of research. In general, Marie-Claire is
+            interested in using the digital medium to foster greater engagement with the ancient
+            world through the study of language, art, and myth.
+          </>
+        ),
+        link: "Website",
+      },
+      vg: {
+        title: "Vanessa Gorman",
+        subtitle: "Co-director",
+        text: "Vanessa Gorman (PhD Classics, UPenn) is a Professor of History and Classics at the University of Nebraska-Lincoln. Her primary fields are Greek History and Historiography; Greek Pedagogy; Philology and Dependency Syntax; and Digital Humanities.",
+        siteLink: "Website",
+        greekLink: "Greek Language course",
+      },
+      zf: {
+        title: "Zachary Fletcher",
+        subtitle: "Technical lead",
+        text: "Nullam in pretium felis, ut vehicula nibh. Nulla vehicula a tellus nec tempor. Phasellus ante enim, iaculis maximus maximus eget, aliquet accumsan odio. Donec bibendum lobortis metus et faucibus. Phasellus lacinia neque gravida gravida interdum.",
+      },
     },
   },
   fr: {
@@ -308,8 +337,8 @@ const translations = {
         text: (
           <>
             Ce projet, encore à l&apos;état d&apos;ébauche, invite le public à s&apos;intéresser aux
-            études classiques et à l&apos;ornithologie
-            grâce à une série de court-métrages concernant
+            études classiques et à l&apos;ornithologie grâce à une série de court-métrages
+            concernant
             {' '}
             <a href="https://en.wikipedia.org/wiki/D%27Arcy_Wentworth_Thompson">
               D&apos;Arcy Thompson&apos;s
@@ -346,10 +375,9 @@ const translations = {
             .
             Milliet parraina un ouvrage qui devait contenir tous les textes anciens conservés
             à propos de la peinture accompagnés de traductions et commentaires.
-            Le recueil Milliet numérique dynamise cet ouvrage en l&apos;offrant
-            sous format numérique.
-            Le projet vise à rendre les textes concernant la peinture ancienne accessibles
-            autant pour le public que pour les spécialistes.
+            Le recueil Milliet numérique dynamise cet ouvrage en l&apos;offrant sous format
+            numérique. Le projet vise à rendre les textes concernant la peinture ancienne
+            accessibles autant pour le public que pour les spécialistes.
           </>
         ),
         link: "Parcourir le Recueil Milliet numérique",
@@ -458,6 +486,7 @@ const translations = {
     },
     header: {
       platform: "La plateforme Perseids",
+      about: "À propos",
       editions: "Éditions numériques",
       tools: "Bibliothèques logicielles et outils",
       contact: "Pour nous joindre",

@@ -30,7 +30,8 @@ const renderSingleLink = (link, linkText, key) => (
   </p>
 );
 
-const renderLinks = (links) => links.map(({ link, txt, key }) => renderSingleLink(link, txt, key));
+const renderLinks = (links) => links.map(({ link, text, key }) => (
+  renderSingleLink(link, text, key)));
 
 const renderText = (text) => (
   <p>
