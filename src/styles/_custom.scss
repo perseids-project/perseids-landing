@@ -120,6 +120,13 @@ body {
   }
 }
 
+.wall-background {
+  background-color: #747672;
+  background-image: url('./img/background/wall.jpg');
+  background-size: cover;
+  background-position: 50% 45%;
+}
+
 .ul-within-publication {
   padding-left: 18px;
 }

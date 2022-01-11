@@ -9,7 +9,7 @@ const Contact = () => (
     <Hero
       title="about.hero.title"
       text="about.hero.text"
-      background="hermes"
+      background="wall"
     />
 
     <div className="container mb-4">

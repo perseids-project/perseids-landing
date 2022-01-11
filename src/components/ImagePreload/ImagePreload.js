@@ -6,6 +6,7 @@ import hermes from '../../img/background/hermes.jpg';
 import sunset from '../../img/background/sunset.jpg';
 import text from '../../img/background/text.jpg';
 import funeraryPlaque from '../../img/background/funerary-plaque.jpg';
+import wall from '../../img/background/wall.jpg';
 
 const images = {
   columns,
@@ -14,6 +15,7 @@ const images = {
   sunset,
   text,
   'funerary-plaque': funeraryPlaque,
+  wall,
 };
 
 // This component exists because of an issue with background images.
